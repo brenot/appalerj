@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "c11c605c-a7ba-4e46-876b-0b1cebdbec95++5551",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "c11c605c-a7ba-4e46-876b-0b1cebdbec95++5551" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "c11c605c-a7ba-4e46-876b-0b1cebdbec95++5551" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9F3AE11B-A5CC-452F-A0DA-12429A320B2B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "c11c605c-a7ba-4e46-876b-0b1cebdbec95++5551" : "alerj\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Alerj",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "platforms\/ios\/Alerj.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/10.11.50.12\/svn\/proderj\/app-alerj",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "c11c605c-a7ba-4e46-876b-0b1cebdbec95++5551"
+    }
+  ]
+}
