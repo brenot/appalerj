@@ -17,7 +17,7 @@
        under the License.
  */
 
-package br.gov.rj.proderj.appalerj;
+package io.cordova.hellocordova;
 
 import android.os.Bundle;
 import org.apache.cordova.*;
