@@ -104,6 +104,15 @@
 
         });
 
+        $( "#inicio-page"  ).on( "click", ".menu-transparencia", function() {
+
+            app.ajax.mesAnoAgenda = '';
+
+
+            $( ":mobile-pagecontainer" ).pagecontainer( "change", "transparencia.html", { role: "page" , transition: 'slide'  } );
+
+        });
+
         // enable swipe for android
         $.event.special.swipe.scrollSupressionThreshold = 10; 
         $.event.special.swipe.horizontalDistanceThreshold = 30; 
@@ -144,6 +153,7 @@
 
             		<li><span class="fio_01"></span><a class="menu-agenda" >AGENDA</a><span class="fio_02"></span></li>
 
+                    <li><span class="fio_01"></span><a class="menu-transparencia" >TRANSPARÊNCIA</a><span class="fio_02"></span></li>
             	</ul>
             </div>        
         </div>
