@@ -6,8 +6,9 @@
 <meta name="apple-mobile-web-app-capable" content="yes"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 <meta name="format-detection" content="telephone=no">
-<title>ALERJ - Assembléia Legislativa do Estado do Rio de Janeiro</title>
+<meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
 
+<title>ALERJ - Assembléia Legislativa do Estado do Rio de Janeiro</title>
 
 <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
 <link rel="stylesheet" href="js/jquery-ui/jquery-ui.css" >
@@ -27,7 +28,8 @@
 
 <!-- framework JS --> 
 <script src="js/app.js"></script>
-<script src="cordova.js"></script>
+<!--<script src="js/require.js"></script>-->
+<!--<script src="js/cordova.js"></script>-->
 <script src="js/app.actions.js"></script>
 <script src="js/app.ajax.actions.js"></script>
 <script src="js/javascript.js"></script>
@@ -43,13 +45,23 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 
+    <script src="js/helpers.js"></script>
+
 </head>
 <body>
 <div data-role="page" id="inicio-page">
 
     <script type="text/javascript">
 
-        
+
+        $( "#inicio-page"  ).on( "click", ".menu-tvalerj", function() {
+
+            $( ":mobile-pagecontainer" ).pagecontainer( "change", "tvalerj.html", { role: "page", transition: 'slide'  } );
+
+            playTvAlerj();
+
+        });
+
         $( "#inicio-page"  ).on( "click", ".menu-deputado", function() {
 
 
@@ -159,7 +171,7 @@
 
                     <li><span class="fio_01"></span><a class="menu-transparencia" >TRANSPARÊNCIA</a><span class="fio_02"></span></li>
 
-                    <li><span class="fio_01"></span><a class="menu-aloalerj botao-azul"><img src="imagens/logo-aloalerj.svg"></a><span class="fio_02"></span></li>
+                    <li><span class="fio_01"></span><a class="menu-aloalerj menu-fale botao-azul"><img src="imagens/logo-aloalerj.svg"></a><span class="fio_02"></span></li>
             	</ul>
             </div>        
         </div>

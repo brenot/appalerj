@@ -16,6 +16,14 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+
+    <access origin="*"/>
+    <access origin="*.aloalerj.rj.gov.br" />
+    <access origin="*.antoniocarlosribeiro.com" />
+    <access origin="*.youtube.com" />
+    <allow-navigation href="*" />
+    <allow-intent href="*" />
+
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="2000" />
     <preference name="Orientation" value="portrait" />
