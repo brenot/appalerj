@@ -62,6 +62,14 @@
 
         });
 
+        $( "#inicio-page"  ).on( "click", ".menu-radioalerj", function() {
+
+            $( ":mobile-pagecontainer" ).pagecontainer( "change", "radioalerj.html", { role: "page", transition: 'slide'  } );
+
+            playRadioAlerj();
+
+        });
+
         $( "#inicio-page"  ).on( "click", ".menu-deputado", function() {
 
 
