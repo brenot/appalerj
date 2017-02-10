@@ -1,4 +1,4 @@
-var player;
+var tvAlerjPlayer;
 var done = false;
 
 function validateEmail(email){
@@ -106,6 +106,8 @@ function bootAloAlerj() {
 }
 
 function playTvAlerj() {
+    console.log('playTvAlerj');
+
     // 2. This code loads the IFrame Player API code asynchronously.
     var tag = document.createElement('script');
 
@@ -114,11 +116,18 @@ function playTvAlerj() {
     scriptTag.parentNode.insertBefore(tag, scriptTag);
 }
 
+function stopTvAlerj() {
+    if (typeof tvAlerjPlayer !== 'undefined') {
+        console.log('pause');
+        tvAlerjPlayer.pause();
+    }
+}
+
 function onYouTubeIframeAPIReady() {
     // 3. This function creates an <iframe> (and YouTube player)
     //    after the API code downloads.
 
-    player = new YT.Player('video-player', {
+    tvAlerjPlayer = new YT.Player('video-player', {
         height: '100%',
         width: '100%',
         videoId: 'e5iGB-228QA',
@@ -143,4 +152,111 @@ function onPlayerStateChange(event) {
     }
 }
 
-$(window).on('resize load',adjustIframes);
+function bootHome() {
+    $(window).on("navigate", function (event, data) {
+        var direction = data.state.direction;
+        if (direction == 'back') {
+            console.log('back');
+        }
+        if (direction == 'forward') {
+            console.log('forward');
+        }
+    });
+
+    $( "#inicio-page"  ).on( "click", ".menu-tvalerj", function() {
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "tvalerj.html", { role: "page", transition: 'slide'  } );
+
+        playTvAlerj();
+
+    });
+
+    $( "#inicio-page"  ).on( "click", ".menu-radioalerj", function() {
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "radioalerj.html", { role: "page", transition: 'slide'  } );
+
+        playRadioAlerj();
+
+    });
+
+    $( "#inicio-page"  ).on( "click", ".menu-deputado", function() {
+
+
+        app.ajax.scrollTopDeputado = 0;
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "deputados.html", { role: "page", transition: 'slide'  } );
+
+    });
+
+    $( "#inicio-page"  ).on( "click", ".menu-ordem", function() {
+
+        app.ajax.mesAnoOrdem = '';
+        dataOrdemSelecionada = null;
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "ordemdodia.html", { role: "page", transition: 'slide'  } );
+
+    });
+
+
+    $( "#inicio-page"  ).on( "click", ".menu-regimento", function() {
+
+
+        app.ajax.scrollTopRegimento = 0;
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "regimentointerno.html", { role: "page", transition: 'slide' } );
+
+    });
+
+
+    $( "#inicio-page"  ).on( "click", ".menu-noticias", function() {
+
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "noticias.html", { role: "page", transition: 'slide'  } );
+
+    });
+
+
+    $( "#inicio-page"  ).on( "click", ".menu-fale", function() {
+
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "faleconosco.html", { role: "page", transition: 'slide'   } );
+
+    });
+
+
+    $( "#inicio-page"  ).on( "click", ".menu-agenda", function() {
+
+        app.ajax.mesAnoAgenda = '';
+
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "agenda.html", { role: "page" , transition: 'slide'  } );
+
+    });
+
+    $( "#inicio-page"  ).on( "click", ".menu-transparencia", function() {
+
+        app.ajax.mesAnoAgenda = '';
+
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "transparencia.html", { role: "page" , transition: 'slide'  } );
+
+    });
+
+    // enable swipe for android
+    $.event.special.swipe.scrollSupressionThreshold = 10;
+    $.event.special.swipe.horizontalDistanceThreshold = 30;
+    $.event.special.swipe.durationThreshold = 500;
+    $.event.special.swipe.verticalDistanceThreshold = 75;
+
+    var ratio = window.devicePixelRatio || 1;
+    var w = screen.width * ratio;
+    var h = screen.height * ratio;
+
+    //alert(ratio);
+    // alert(w);
+    // alert(h);
+
+    stopTvAlerj();
+
+    $(window).on('resize load',adjustIframes);
+}
