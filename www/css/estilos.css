@@ -4954,3 +4954,55 @@ a.menu-aloalerj.botao-azul.ui-link img {
     max-height: 55px;
     margin: 0px 0 0px 0;
 }
+
+
+
+
+
+
+.video-wrapper {
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.radio-content {
+    /*background-color: #000000;*/
+    /*background-image: url("/templates/mv/img/radio-alerj-phone.png");*/
+    /*background-position: center center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-attachment: fixed;*/
+    /*background-size: cover;*/
+    background-color: #02204d;
+}
+
+.radio-content img {
+    /*margin-top: 20px;*/
+    width: 100%;
+}
+
+.radio-content .ao-vivo {
+    margin-top: 20px;
+}
+
+.radio-content audio {
+    background-color: #172b53;
+    margin-top: 15px;
+    width: 90%;
+}
