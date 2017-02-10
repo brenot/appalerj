@@ -4915,7 +4915,7 @@ body.bg_saudacao {
 
 
 a.menu-tvalerj.botao-azul.ui-link {
-    background: #172a4b url("../imagens/fundo-tvalerj.png") !important;
+    background: #172B53 url("../imagens/fundo-tvalerj.png") center center no-repeat !important;
     background-position: center center !important;
     color: #ffffff;
 }
@@ -4926,7 +4926,7 @@ a.menu-tvalerj.botao-azul.ui-link img {
 }
 
 a.menu-radioalerj.botao-azul.ui-link {
-    background: #172a4b url("../imagens/fundo-radioalerj.png") !important;
+    background: #172B53 url("../imagens/fundo-radioalerj.png") center center no-repeat !important;
     background-position: center center !important;
     color: #ffffff;
 }
@@ -4937,12 +4937,20 @@ a.menu-radioalerj.botao-azul.ui-link img {
 }
 
 a.menu-noticias.botao-azul.ui-link {
-    background: #172a4b url("../imagens/fundo-noticias.png");
-    background-position: center center !important;
+    background: #172B53 url("../imagens/fundo-noticias.png") center center no-repeat !important;
     color: #ffffff;
 }
 
 a.menu-noticias.botao-azul.ui-link img {
     max-height: 20px;
     margin: 15px 0 15px 0;
+}
+
+
+a.menu-aloalerj.botao-azul.ui-link {
+}
+
+a.menu-aloalerj.botao-azul.ui-link img {
+    max-height: 80px;
+    margin: 0px 0 0px 0;
 }
