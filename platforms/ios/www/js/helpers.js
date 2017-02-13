@@ -120,6 +120,8 @@ function playTvAlerj() {
     jQuery('.voltar > a').on('click', function () {
         console.log('voltar play tv');
     });
+
+    tvAlerjPlayer.playVideo();
 }
 
 function pauseTvAlerj() {
@@ -237,6 +239,12 @@ function bootHome() {
 
 
         $( ":mobile-pagecontainer" ).pagecontainer( "change", "transparencia.html", { role: "page" , transition: 'slide'  } );
+
+    });
+
+    $( "#inicio-page"  ).on( "click", ".menu-portal", function() {
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "portal.html", { role: "page" , transition: 'slide'  } );
 
     });
 

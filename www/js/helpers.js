@@ -120,6 +120,8 @@ function playTvAlerj() {
     jQuery('.voltar > a').on('click', function () {
         console.log('voltar play tv');
     });
+
+    tvAlerjPlayer.playVideo();
 }
 
 function pauseTvAlerj() {
