@@ -95,5 +95,24 @@
                 </div>
             </div>
         </div>
+
+        <script>
+            console.log('in home');
+
+            jQuery('.voltar').on('click', function () {
+                console.log('voltar');
+            });
+            
+            jQuery('window').on("navigate", function (event, data) {
+                console.log('navigate');
+                var direction = data.state.direction;
+                if (direction == 'back') {
+                    console.log('back');
+                }
+                if (direction == 'forward') {
+                    console.log('forward');
+                }
+            });
+        </script>
     </body>
 </html>

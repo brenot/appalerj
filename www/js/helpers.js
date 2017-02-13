@@ -114,12 +114,18 @@ function playTvAlerj() {
     tag.src = "https://www.youtube.com/iframe_api";
     var scriptTag = document.getElementsByTagName('script')[0];
     scriptTag.parentNode.insertBefore(tag, scriptTag);
+
+    console.log('configuring click');
+
+    jQuery('.voltar > a').on('click', function () {
+        console.log('voltar play tv');
+    });
 }
 
-function stopTvAlerj() {
+function pauseTvAlerj() {
     if (typeof tvAlerjPlayer !== 'undefined') {
         console.log('pause');
-        tvAlerjPlayer.pause();
+        tvAlerjPlayer.stopVideo();
     }
 }
 
@@ -153,15 +159,7 @@ function onPlayerStateChange(event) {
 }
 
 function bootHome() {
-    $(window).on("navigate", function (event, data) {
-        var direction = data.state.direction;
-        if (direction == 'back') {
-            console.log('back');
-        }
-        if (direction == 'forward') {
-            console.log('forward');
-        }
-    });
+    console.log('bootHome');
 
     $( "#inicio-page"  ).on( "click", ".menu-tvalerj", function() {
 
@@ -252,11 +250,11 @@ function bootHome() {
     var w = screen.width * ratio;
     var h = screen.height * ratio;
 
-    //alert(ratio);
-    // alert(w);
-    // alert(h);
-
-    stopTvAlerj();
+    $(document).on( "pagebeforeshow", function() {
+        $(document).on('click', '.voltar > a', function(e){
+            pauseTvAlerj();
+        });
+    });
 
     $(window).on('resize load',adjustIframes);
 }

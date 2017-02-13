@@ -42,6 +42,7 @@
     <allow-intent href="geo:*" />
     <access origin="*.aloalerj.rj.gov.br" />
     <access origin="*.antoniocarlosribeiro.com" />
+    <access origin="*.youtube.com" />
     <allow-navigation href="*" />
     <allow-intent href="*" />
     <access origin="*" />

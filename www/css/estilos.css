@@ -4618,9 +4618,9 @@ body.bg_saudacao {
     body {
         font-size: 10px;
     }
-    
+
     .principal.agenda .container .conteudo ul.eventos li a {
-    width: 200px;
+        width: 200px;
     }
 
     .superior .logotipo {
@@ -4642,7 +4642,6 @@ body.bg_saudacao {
         background: url(../imagens/menu-esquerda.png) left repeat-y, url(../imagens/menu-direita.png) right repeat-y;
     }
 
-
     /*--------------------------- PRINCIPAL - 480px */
     .principal .container .controle-conteudo {
         min-height: auto;
@@ -4652,7 +4651,6 @@ body.bg_saudacao {
         min-height: 231px;
 
     }
-
 
     /*--------------------------- SUPERIOR - MAX 480px */
     .superior .superior_interna .titulo {
@@ -4692,8 +4690,6 @@ body.bg_saudacao {
     }
 
     /*--------------------------- SUPERIOR - MAX 480px */
-
-
     .geral.fixed .principal.agenda {
         margin-top: 73px;
         padding: 0px 0px 0px 0px;
@@ -4757,6 +4753,7 @@ body.bg_saudacao {
         padding: 20px 45px 20px 20px;
         background: url(../imagens/icone_07.png) 93% no-repeat;
     }
+
     /*--------------------------- RESULTADO BUSCA - 480px */
     .label_resultado {
         text-align: center;
@@ -4785,6 +4782,7 @@ body.bg_saudacao {
         display: block;
         background: url(../imagens/lider_menor.png) no-repeat;
     }
+
     /*--------------------------- DEPUTADO - 480px */
     .principal.deputado .container .controle-conteudo .conteudo .lista-deputado {
         padding: 0px 20px 0px 25px;
@@ -4861,8 +4859,6 @@ body.bg_saudacao {
        background: url(../imagens/botao-compartilhar.png) no-repeat;
        margin-left: -45px;
       border-radius: 4px;
-    }
-
     }
 
     .principal.regimento .container .controle-conteudo a.secao span.area {
