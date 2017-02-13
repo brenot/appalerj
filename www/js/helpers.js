@@ -240,6 +240,12 @@ function bootHome() {
 
     });
 
+    $( "#inicio-page"  ).on( "click", ".menu-portal", function() {
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "portal.html", { role: "page" , transition: 'slide'  } );
+
+    });
+
     // enable swipe for android
     $.event.special.swipe.scrollSupressionThreshold = 10;
     $.event.special.swipe.horizontalDistanceThreshold = 30;
