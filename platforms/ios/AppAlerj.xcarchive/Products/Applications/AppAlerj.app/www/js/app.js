@@ -5,15 +5,12 @@ var app = {
 	,contextPathPortal: "http://apialerj.rj.gov.br"  
 		
 	//,contextPathPortal: "http://10.11.63.11:8040"  
-		
-		
-	
+
 	,appPath: "/alerj"
 	
 	,appName: ""
-	,version: "1.4"
-	
-		
+	,version: "1.5beta (Projetos Especiais)"
+
 	,crossdomain : false
 	,crossdomainPortal : false
 	

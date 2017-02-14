@@ -11,7 +11,7 @@ var app = {
 	,appPath: "/alerj"
 	
 	,appName: ""
-	,version: "1.4"
+    ,version: "1.5beta (Projetos Especiais)"
 	
 		
 	,crossdomain : false
