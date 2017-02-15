@@ -536,7 +536,7 @@ body.bg_saudacao {
     }
     /*--------------------------- MENU */
     .menu {
-        width: 100%;
+        /*width: 100%;*/
         height: auto;
         overflow: scroll;
         float: left;
