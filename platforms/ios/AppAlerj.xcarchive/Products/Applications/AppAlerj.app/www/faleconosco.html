@@ -1,198 +1,73 @@
 ﻿<!doctype html>
 <html>
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-<title>ALERJ - Assembléia Legislativa do Estado do Rio de Janeiro</title>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
 
-<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+        <title>ALERJ - Assembléia Legislativa do Estado do Rio de Janeiro</title>
 
-<!-- Bootstrap -->
-<link href="css/bootstrap.css" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="css/estilos.css">
+        <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
 
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+        <link rel="stylesheet" type="text/css" href="css/uistyle.css">
 
-</head>
-<body>
-<div data-role="page" id="faleconosco-page" >
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <script src="js/helpers.js"></script>
+        <![endif]-->
+    </head>
 
- <style>
-
-.ui-content{
-    padding: 0px !important;
-}
-
-</style>
-
-
-    <script type="text/javascript">
-
-        function validateEmail(email){
-            var re = /\S+@\S+\.\S+/;
-            return re.test(email);
-        }
-
-        function adjustIframes()
-        {
-          $('iframe').each(function(){
-            var
-            $this       = $(this),
-            proportion  = $this.data( 'proportion' ),
-            w           = $this.attr('width'),
-            actual_w    = $this.width();
-
-            alert(proportion);
-            
-            if ( ! proportion )
-            {
-                proportion = $this.attr('height') / w;
-                $this.data( 'proportion', proportion );
-            }
-          
-            if ( actual_w != w )
-            {
-                $this.css( 'height', Math.round( actual_w * proportion ) + 'px' );
-            }
-          });
-        }
-        $(window).on('resize load',adjustIframes);
-
-
-        $('#faleconosco-page').on('click', '#enviar', function(e) {
-
-            var validacao = true;
-
-            if ($('#nome').val() == ''){
-                validacao = false;
-            }
-
-            if ($('#email').val() == ''){
-                validacao = false;
-            }
-
-            if ($('#ddd').val() == ''){
-                validacao = false;
-            }
-
-            if ($('#telefone').val() == ''){
-                validacao = false;
-            }
-
-            if ($('#mensagem').val() == ''){
-                validacao = false;
-            }
-
-            if (!validacao){
-                alert('Por favor, preencha todos os campos para enviar a mensagem!');
-            }else{
-
-
-                if (!validateEmail($('#email').val())){
-                    alert('E-mail inválido!');
-                    return;
-
-                }else{
-
-                    setTimeout(function(){
-                       $.mobile.loading('show');
-                    },500);
-
-                     var data = 'Nome='+$('#nome').val()+'&Email='+$('#email').val()+'&Telefone='+$('#ddd').val()+'-'+$('#telefone').val()+'&Mensagem=' + $('#mensagem').val();
-
-                    app.actions.faleconosco(data);
-                }
-
-            }
-
-        });    
-
-        $( "#faleconosco-page" ).on( "swiperight", function(){
-
-            $( ":mobile-pagecontainer" ).pagecontainer( "change", "inicio.html", { role: "page", transition: 'slide', reverse: 'true' } );
-        } ); 
-
-        $('#ddd').keydown(function (e) {
-
-            var inputLength = $(this).val().length;
-
-            if(inputLength >= 2 && e.keyCode >= 48 && e.keyCode <= 57) {
-                e.preventDefault();
-                return false;
-            }
-        });
-
-        $('#telefone').keydown(function (e) {
-
-            var inputLength = $(this).val().length;
-
-            if(inputLength >= 9 && e.keyCode >= 48 && e.keyCode <= 57) {
-                e.preventDefault();
-                return false;
-            }
-        });
-
-       
-
-    </script>
-
-    <div class="geral fixed">
-    	 <div class="barra"></div>
-        <div class="superior-telas">
-            <div class="container-fluid superior_interna">
-            	<div class="campo_busca">
-                	<input type="text" name="busca">
-                    <div class="icone fechar"></div>
-                </div>
-                <div class="controle-botoes">
-                    <div class="voltar padding-0 col-lg-2 col-md-2 col-sm-2 col-xs-2" >
-                        <a href="inicio.html" data-transition="slide" data-direction="reverse" class="icone"></a>
+    <body>
+        <div data-role="page" id="faleconosco-page">
+            <div class="geral fixed">
+                <div class="barra"></div>
+                <div class="superior-telas">
+                    <div class="container-fluid superior_interna">
+                        <div class="campo_busca">
+                            <input type="text" name="busca">
+                            <div class="icone fechar"></div>
+                        </div>
+                        <div class="controle-botoes">
+                            <div class="voltar padding-0 col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                                <a href="inicio.html" data-transition="slide" data-direction="reverse"
+                                   class="icone"></a>
+                            </div>
+                            <div class="titulo col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                <h1>ALÔ ALERJ</h1>
+                            </div>
+                            <!-- <div class="busca padding-0 col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                                <a href="javascript:;" class="icone"></a>
+                            </div> -->
+                        </div>
                     </div>
-                    <div class="titulo col-lg-8 col-md-8 col-sm-8 col-xs-8">
-                        <h1>ALÔ ALERJ</h1>
+                    <div class="container-fluid detalhe_superior">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 esquerda"></div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 direita"></div>
                     </div>
-                    <!-- <div class="busca padding-0 col-lg-1 col-md-1 col-sm-1 col-xs-1">
-                        <a href="javascript:;" class="icone"></a>
-                    </div> -->
                 </div>
-            </div>
-            <div class="container-fluid detalhe_superior">
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 esquerda"></div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 direita"></div>
+                <div data-role="content">
+                    <iframe src="https://www.aloalerj.rj.gov.br/?client=app" width="100%" height="1024px"
+                            frameborder="0" seamless="" scrolling="yes"></iframe>
+                </div>
+
+                <div class="controle-conteudo">
+                </div>
+
+                <span class="bottom-esquerda"></span>
+
+                <span class="bottom-direita"></span>
             </div>
         </div>
-        <div data-role="content">
-                        <iframe src="https://www.aloalerj.rj.gov.br/?client=app" width="100%" height="1024px" frameborder="0" seamless="" scrolling="yes" ></iframe>
-                    </div>
 
-        <!--<<div class="principal">    
-        	<div class="col-lg-12 col-md-12 col-sm-12 container">
-    		span class="top-esquerda"></span>
-    		<span class="top-direita"></span>-->
-    		
-            <div class="controle-conteudo">
-                             
-                    
-                    
-                
-            </div>
-
-    		<span class="bottom-esquerda"></span>
-    		<span class="bottom-direita"></span>
-            </div>        
-              
-        </div>-->
-    </div>
-</div>
-
-
-
-
-</body>
+        <script>
+            bootAloAlerj();
+        </script>
+    </body>
 </html>

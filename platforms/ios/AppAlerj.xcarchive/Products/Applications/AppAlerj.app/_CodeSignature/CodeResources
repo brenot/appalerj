@@ -86,7 +86,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		eU+fOTj1RAm4rrixA/zxmkY6Reg=
+		P1c7fJly/w9Q0fg3wixUR6fwlTw=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -94,11 +94,11 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		F8C8A1a1SSmiemHJ5PArLMX1XaE=
+		pCKOfHaIZFg7Swsaqhe+AsksxL4=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		rVWk6EigQf6gvXpdseFuXDLbn6A=
+		uxZ2BALcgqLzBqKQuQduwbyNYbs=
 		</data>
 		<key>LaunchImage-568h@2x.png</key>
 		<data>
@@ -158,7 +158,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		+dWrCRhUaJVoxQBaIjXp+efm/c4=
+		xe3aZi+qDuDM5sQ/EqiUn97Zybs=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -170,11 +170,11 @@
 		</data>
 		<key>config.xml</key>
 		<data>
-		6omcKny8fXqao6QTv/01DXODFNA=
+		vuV1S1hEb2CRz2RkRErMX+WX4Dc=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		z2Fqwfz2nQKvLF2OoAbJ7BsMyMw=
+		Rp4YYk8U8qFhH+tjBKdzbhNsOZE=
 		</data>
 		<key>www/agenda.html</key>
 		<data>
@@ -214,7 +214,7 @@
 		</data>
 		<key>www/css/estilos.css</key>
 		<data>
-		nOrEyj2WRj+SP187w5GdElCcggA=
+		7uyRz8zPdOa/ouBZL0DUwzKFCeA=
 		</data>
 		<key>www/css/images/ajax-loader.gif</key>
 		<data>
@@ -240,6 +240,10 @@
 		<data>
 		lsUhM9xl5TtJ2PdsLcLkV+ZXld4=
 		</data>
+		<key>www/css/uistyle.css</key>
+		<data>
+		tzK/A2fw79j8YRmIRBULYW0dz6w=
+		</data>
 		<key>www/deputados.html</key>
 		<data>
 		rhtSDwx5njiVIuYrYaKgx0zQRwk=
@@ -250,7 +254,7 @@
 		</data>
 		<key>www/faleconosco.html</key>
 		<data>
-		x6Nv6nCNHs8mYzOoiMXBcJ/toZs=
+		pwvhzy8Ef2sjswYY+g1jxeJ70Jw=
 		</data>
 		<key>www/fonts/glyphicons-halflings-regular.eot</key>
 		<data>
@@ -356,6 +360,10 @@
 		<data>
 		CjGqtI1CgSIikVnWwbRYh8GFnLg=
 		</data>
+		<key>www/imagens/ao-vivo.png</key>
+		<data>
+		8Bs2OaDeSd55cwpAMcMrq7hUBtU=
+		</data>
 		<key>www/imagens/base_capitulo.png</key>
 		<data>
 		P78Afx5yYz2nof4WbQGnKRsCzH4=
@@ -387,6 +395,10 @@
 		<key>www/imagens/brilho-inferior-regimento.png</key>
 		<data>
 		oOvbUWJhQh3LoYzROOK6dWeE6Ng=
+		</data>
+		<key>www/imagens/circulos-logo.png</key>
+		<data>
+		MCEjvAsCy7/U0uP12aI0SEx31fo=
 		</data>
 		<key>www/imagens/conteudo-bottom-direita.jpg</key>
 		<data>
@@ -446,7 +458,7 @@
 		</data>
 		<key>www/imagens/fundo-tvalerj.png</key>
 		<data>
-		TZZQImFEmgZBwhejZW3OOXtqYB8=
+		WU+JCgKV2uyTSexwRhXSGrWtFq4=
 		</data>
 		<key>www/imagens/fundo-tvalerj.svg</key>
 		<data>
@@ -528,6 +540,10 @@
 		<data>
 		nNzjpY6J1xqpsyNwvHIvTMgYAto=
 		</data>
+		<key>www/imagens/logo-aloalerj.svg</key>
+		<data>
+		0548BV5PY6+fPFY8sy01sAHdCc4=
+		</data>
 		<key>www/imagens/logo-noticias.svg</key>
 		<data>
 		HWcWW9vs9fREj5qVYMJtjGYvXqk=
@@ -559,6 +575,22 @@
 		<key>www/imagens/menu-esquerda.png</key>
 		<data>
 		ysSHK44o4vSzPFCYkj35KUsEOhs=
+		</data>
+		<key>www/imagens/microfone.png</key>
+		<data>
+		6A31Af2tk6O8vlDjQNSHXgoKn3I=
+		</data>
+		<key>www/imagens/radio-alerj-ipad.png</key>
+		<data>
+		pUrChF1Dglr27hw5RX4qcA1dleQ=
+		</data>
+		<key>www/imagens/radio-alerj-phone.png</key>
+		<data>
+		7e9zjM8bapMS+e1DZ96UW24bLDM=
+		</data>
+		<key>www/imagens/radio-alerj.png</key>
+		<data>
+		sJqYdrLBXriN/CA2dEL9MxEi3RY=
 		</data>
 		<key>www/imagens/saudacao.png</key>
 		<data>
@@ -610,7 +642,7 @@
 		</data>
 		<key>www/inicio.html</key>
 		<data>
-		eqzEh6paVC6vht2Vkc0O8i6IDFI=
+		AZGRXFDXwMyiFgRdr0n1eOm0MnE=
 		</data>
 		<key>www/js/app.actions.js</key>
 		<data>
@@ -626,7 +658,7 @@
 		</data>
 		<key>www/js/app.js</key>
 		<data>
-		xKZZB6oQ59PSYcOdzFsG6TtvS00=
+		FxRHRMe4ihGglxGWXaeL0N7F2G8=
 		</data>
 		<key>www/js/app.mobile.js</key>
 		<data>
@@ -639,6 +671,14 @@
 		<key>www/js/bootstrap.js</key>
 		<data>
 		HEhymaokJMlh8WZz5dpJ7AWKbEs=
+		</data>
+		<key>www/js/cordova.js</key>
+		<data>
+		xDXDEeRtlEPxZvBvFjXYijKI4+Y=
+		</data>
+		<key>www/js/helpers.js</key>
+		<data>
+		a1su7rJWdwFDfp2RKEEr2Du6Avo=
 		</data>
 		<key>www/js/images/ajax-loader.gif</key>
 		<data>
@@ -1540,6 +1580,10 @@
 		<data>
 		IN6qEXbZabEd9XQLrS6go8qsTPg=
 		</data>
+		<key>www/js/require.js</key>
+		<data>
+		nDWSsr/mAaQhpcTAt/mAwprgdJo=
+		</data>
 		<key>www/noticias.html</key>
 		<data>
 		u5SCWmb40+PTNOQGHgalRt8r7iE=
@@ -1564,9 +1608,17 @@
 		<data>
 		IHDaTUE9tvfH1bb5ngyA+Lr1PUk=
 		</data>
+		<key>www/portal.html</key>
+		<data>
+		QO01X4s0CHp8x/jf6AFsHLgmshQ=
+		</data>
+		<key>www/radioalerj.html</key>
+		<data>
+		FV3Tqi9cVbQjpIYG95Xx+e4qbsA=
+		</data>
 		<key>www/regimentointerno.html</key>
 		<data>
-		rljEXc1IN0qnI/gQjmKmpywwrJI=
+		kuc6pri3BctjMif05pWUGCLPhRA=
 		</data>
 		<key>www/regimentointerno_interna.html</key>
 		<data>
@@ -1574,7 +1626,11 @@
 		</data>
 		<key>www/transparencia.html</key>
 		<data>
-		48IeVdkkO3exfqvo4X5p8XsffuY=
+		6fxNcp4Kae3wlJA/mf0f4tvOP8Q=
+		</data>
+		<key>www/tvalerj.html</key>
+		<data>
+		QpxspTgkrqxbpO0dmfGscTmp1bk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -1803,11 +1859,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eU+fOTj1RAm4rrixA/zxmkY6Reg=
+			P1c7fJly/w9Q0fg3wixUR6fwlTw=
 			</data>
 			<key>hash2</key>
 			<data>
-			oG+HsnfLGukAdu9i0lUHYffAmURKxdXYFuHyNnc/184=
+			YK3PeWq3iLpvfFcV9wh3wQPJp3aZo0FpIlt0B1Jf1C8=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -1825,11 +1881,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			F8C8A1a1SSmiemHJ5PArLMX1XaE=
+			pCKOfHaIZFg7Swsaqhe+AsksxL4=
 			</data>
 			<key>hash2</key>
 			<data>
-			J2rztE+Dd6KsAInGl23jfVQ96OkRaXRMgofURrcMWyk=
+			zrw2qEChqt9GxW0VjPUD8IZU0Sp3te0c8LoftPP2+2M=
 			</data>
 		</dict>
 		<key>LaunchImage-568h@2x.png</key>
@@ -1990,11 +2046,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+dWrCRhUaJVoxQBaIjXp+efm/c4=
+			xe3aZi+qDuDM5sQ/EqiUn97Zybs=
 			</data>
 			<key>hash2</key>
 			<data>
-			HgoyKIvlAzaD22BtrIWcV2C6FXQYvAc0ilziQvmC3os=
+			djbbYBtAwmSrq2TU/vzXeYuAxpPiKBay0/uaJdh3/F4=
 			</data>
 		</dict>
 		<key>archived-expanded-entitlements.xcent</key>
@@ -2012,22 +2068,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6omcKny8fXqao6QTv/01DXODFNA=
+			vuV1S1hEb2CRz2RkRErMX+WX4Dc=
 			</data>
 			<key>hash2</key>
 			<data>
-			QWg65rh7tQJY1G/eLrkHP58XclbCN+upw8u1i+ba7+g=
+			ABW6s7oGOns5ZQrpmLVhGu8lUxC6kt/jA11M6PhrDvE=
 			</data>
 		</dict>
 		<key>embedded.mobileprovision</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			z2Fqwfz2nQKvLF2OoAbJ7BsMyMw=
+			Rp4YYk8U8qFhH+tjBKdzbhNsOZE=
 			</data>
 			<key>hash2</key>
 			<data>
-			qKSzuhp/HLF/r1nrj8sf8UTOWcABVRUyK/84F8BVtvM=
+			tujYL8zE3asZVFh51kO4TcmiNI1+9nWSPArQijtg3eQ=
 			</data>
 		</dict>
 		<key>www/agenda.html</key>
@@ -2133,11 +2189,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nOrEyj2WRj+SP187w5GdElCcggA=
+			7uyRz8zPdOa/ouBZL0DUwzKFCeA=
 			</data>
 			<key>hash2</key>
 			<data>
-			cZsaIomE0lG3bRmqT664/M27o+Yuadfx+SODqHmktj0=
+			0tKwB4c5mk8qx0dG2X9VnyYoUMdHzxIBUvH2GPvmA/s=
 			</data>
 		</dict>
 		<key>www/css/images/ajax-loader.gif</key>
@@ -2206,6 +2262,17 @@
 			UykAJ8j59yzhF3IGNJp4gR2O3emrWiazSh50n9lcWKM=
 			</data>
 		</dict>
+		<key>www/css/uistyle.css</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tzK/A2fw79j8YRmIRBULYW0dz6w=
+			</data>
+			<key>hash2</key>
+			<data>
+			Oqg0PhOOgz0Gn+txczgnR3ZH7eu03h0ZTiP3MVZWzyw=
+			</data>
+		</dict>
 		<key>www/deputados.html</key>
 		<dict>
 			<key>hash</key>
@@ -2232,11 +2299,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			x6Nv6nCNHs8mYzOoiMXBcJ/toZs=
+			pwvhzy8Ef2sjswYY+g1jxeJ70Jw=
 			</data>
 			<key>hash2</key>
 			<data>
-			kAmPd07ubh1NTCFhRTpDJk9lIBPO79w4EjLZQMRjWFk=
+			C0UdOmyMh6yH4+BdRmkAPkLiX/9W6Mo/0icREMpn0lk=
 			</data>
 		</dict>
 		<key>www/fonts/glyphicons-halflings-regular.eot</key>
@@ -2525,6 +2592,17 @@
 			hoRWtwhXD1Qv7qvE5jISTpAtNFuSIZGWGhMxeZmRoQI=
 			</data>
 		</dict>
+		<key>www/imagens/ao-vivo.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8Bs2OaDeSd55cwpAMcMrq7hUBtU=
+			</data>
+			<key>hash2</key>
+			<data>
+			RhdhzOpWgjokgNKxABcLgzWVClwTSTGSn52+3OhJFho=
+			</data>
+		</dict>
 		<key>www/imagens/base_capitulo.png</key>
 		<dict>
 			<key>hash</key>
@@ -2611,6 +2689,17 @@
 			<key>hash2</key>
 			<data>
 			8KnCjRgJsdmuqFnPrRGs+AwUabDwcDHDKpzoxshjnl8=
+			</data>
+		</dict>
+		<key>www/imagens/circulos-logo.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MCEjvAsCy7/U0uP12aI0SEx31fo=
+			</data>
+			<key>hash2</key>
+			<data>
+			qbLQ6fh9iIbDlcBUhU0+43bfrBmH7K1awCOspbfaYt8=
 			</data>
 		</dict>
 		<key>www/imagens/conteudo-bottom-direita.jpg</key>
@@ -2771,11 +2860,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TZZQImFEmgZBwhejZW3OOXtqYB8=
+			WU+JCgKV2uyTSexwRhXSGrWtFq4=
 			</data>
 			<key>hash2</key>
 			<data>
-			oGMrlY6TikslicT5+6AFwr9S6p/eqnkT0TTsyDt5XFU=
+			6V3R8DZGeJBkzo+zrZw5g4ccLXsKEwkJvYfZsZrwaH0=
 			</data>
 		</dict>
 		<key>www/imagens/fundo-tvalerj.svg</key>
@@ -2998,6 +3087,17 @@
 			BYcev12RR+dhZBN2p4KK33/d7JTLfCjzdJKqp/ziRSM=
 			</data>
 		</dict>
+		<key>www/imagens/logo-aloalerj.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0548BV5PY6+fPFY8sy01sAHdCc4=
+			</data>
+			<key>hash2</key>
+			<data>
+			8eVFK7Kl/ebswQOn58veQiqnPtwIzubqwj6Vyr16Q4M=
+			</data>
+		</dict>
 		<key>www/imagens/logo-noticias.svg</key>
 		<dict>
 			<key>hash</key>
@@ -3084,6 +3184,50 @@
 			<key>hash2</key>
 			<data>
 			jTNOzDh8tyfDgt06eFFyCCMLjuzhUjWX/qM+q832Uis=
+			</data>
+		</dict>
+		<key>www/imagens/microfone.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6A31Af2tk6O8vlDjQNSHXgoKn3I=
+			</data>
+			<key>hash2</key>
+			<data>
+			e4rAqdqTB6/6CNxvJ1s9Bm4FWlAQrwIgXHpZ+X9TeUw=
+			</data>
+		</dict>
+		<key>www/imagens/radio-alerj-ipad.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pUrChF1Dglr27hw5RX4qcA1dleQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			ymtAG2bR/nZpoWWcYyFJVW8oU5soGjpVpdkA4uDuCNQ=
+			</data>
+		</dict>
+		<key>www/imagens/radio-alerj-phone.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7e9zjM8bapMS+e1DZ96UW24bLDM=
+			</data>
+			<key>hash2</key>
+			<data>
+			hCTTZYGK6X6SPUyJYDn/9inBiE7lzK16mHc2POCIq7Q=
+			</data>
+		</dict>
+		<key>www/imagens/radio-alerj.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sJqYdrLBXriN/CA2dEL9MxEi3RY=
+			</data>
+			<key>hash2</key>
+			<data>
+			hVmEq/s7gqusoTHVsW30o0pjT6LXhu5EMDPsP3ai7z8=
 			</data>
 		</dict>
 		<key>www/imagens/saudacao.png</key>
@@ -3222,11 +3366,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eqzEh6paVC6vht2Vkc0O8i6IDFI=
+			AZGRXFDXwMyiFgRdr0n1eOm0MnE=
 			</data>
 			<key>hash2</key>
 			<data>
-			8imKZfHOtbZr4st67Ww4ITiZY/W2uzyCPYGjtuom5NQ=
+			ITWL8AC8Yk/z0Y4ibWQFw0qH2ZWkXhTV25eEiwK7CLw=
 			</data>
 		</dict>
 		<key>www/js/app.actions.js</key>
@@ -3266,11 +3410,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xKZZB6oQ59PSYcOdzFsG6TtvS00=
+			FxRHRMe4ihGglxGWXaeL0N7F2G8=
 			</data>
 			<key>hash2</key>
 			<data>
-			uV7NkwTJAUerN9j4nK/BwSvd81qnwtqtNWArevtshyc=
+			GQBZsU/5nYQw6TfA8Ntm/FSoSLlR2PiQ/xiVi4WdR3I=
 			</data>
 		</dict>
 		<key>www/js/app.mobile.js</key>
@@ -3304,6 +3448,28 @@
 			<key>hash2</key>
 			<data>
 			wdTX/id0EIIF9SX0gdMDF/7kpWXE/Sg8IVt6c+yhwJk=
+			</data>
+		</dict>
+		<key>www/js/cordova.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xDXDEeRtlEPxZvBvFjXYijKI4+Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			PWlfY9O4S40FAimlyobsFfW/7DRrBXn+UCCGJxBrSY0=
+			</data>
+		</dict>
+		<key>www/js/helpers.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			a1su7rJWdwFDfp2RKEEr2Du6Avo=
+			</data>
+			<key>hash2</key>
+			<data>
+			WHhQS6IJUZ5CHZJXF2lXC+R3cO7ijtxi7K/bIZmZZN4=
 			</data>
 		</dict>
 		<key>www/js/images/ajax-loader.gif</key>
@@ -5781,6 +5947,17 @@
 			p/xJSZcqp/tlF4hMc+qkCL+vpkrKUP7cXmFb1O0ebHg=
 			</data>
 		</dict>
+		<key>www/js/require.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nDWSsr/mAaQhpcTAt/mAwprgdJo=
+			</data>
+			<key>hash2</key>
+			<data>
+			47f668nIPUC7jAF6UkLtZeEQBUJF+SijbkEMHXFqS1Q=
+			</data>
+		</dict>
 		<key>www/noticias.html</key>
 		<dict>
 			<key>hash</key>
@@ -5847,15 +6024,37 @@
 			FmgT1ClDiW97y79M3AoH5+yD0up6uwbP5+W/kSk4gaE=
 			</data>
 		</dict>
+		<key>www/portal.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QO01X4s0CHp8x/jf6AFsHLgmshQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			VmIvO6ce+k/lRpfjb1BgnTLyrbyQN4/Rc3kuZLr1vp0=
+			</data>
+		</dict>
+		<key>www/radioalerj.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FV3Tqi9cVbQjpIYG95Xx+e4qbsA=
+			</data>
+			<key>hash2</key>
+			<data>
+			LASPfkIa8jl3rf0+MzjI4JXzfWUoc6wruriIhcOLpuo=
+			</data>
+		</dict>
 		<key>www/regimentointerno.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rljEXc1IN0qnI/gQjmKmpywwrJI=
+			kuc6pri3BctjMif05pWUGCLPhRA=
 			</data>
 			<key>hash2</key>
 			<data>
-			VsmTjCh9Wr4JsvuP8dYlARWoBaVeQBxHOb+obkQhTf0=
+			Q56Pzyd/YP287kj1WCkPGIV2uHZ76Z3mZ0qOzkjyo24=
 			</data>
 		</dict>
 		<key>www/regimentointerno_interna.html</key>
@@ -5873,11 +6072,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			48IeVdkkO3exfqvo4X5p8XsffuY=
+			6fxNcp4Kae3wlJA/mf0f4tvOP8Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			uhDFtv4hoY+y/nEhMcV5izwQ8KLO0TJUm47U73jRMP8=
+			m6MnHkaMXj40Twn1M0OIqUZweCMnYqxFOSDwvncdYGw=
+			</data>
+		</dict>
+		<key>www/tvalerj.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QpxspTgkrqxbpO0dmfGscTmp1bk=
+			</data>
+			<key>hash2</key>
+			<data>
+			UKpMnBvwkzYYTBvwmRejfoVPEyjhucB1fi3kP3kVQxM=
 			</data>
 		</dict>
 	</dict>

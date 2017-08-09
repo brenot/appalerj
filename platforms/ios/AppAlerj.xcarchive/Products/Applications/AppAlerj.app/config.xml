@@ -40,6 +40,11 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <access origin="*.aloalerj.rj.gov.br" />
+    <access origin="*.antoniocarlosribeiro.com" />
+    <access origin="*.youtube.com" />
+    <allow-navigation href="*" />
+    <allow-intent href="*" />
     <access origin="*" />
     <icon height="180" src="res/ios/icon-60@3x.png" width="180" />
     <icon height="60" src="res/ios/icon-60.png" width="60" />

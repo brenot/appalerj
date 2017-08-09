@@ -1,0 +1,21 @@
+{
+    "name": "gov.br.alerj.app",
+    "version": "1.4.0",
+    "displayName": "AppAlerj",
+    "cordova": {
+        "platforms": [
+            "android",
+            "ios"
+        ],
+        "plugins": {
+            "cordova-plugin-whitelist": {},
+            "cordova-plugin-wkwebview-engine": {}
+        }
+    },
+    "dependencies": {
+        "cordova-ios": "~4.3.1",
+        "cordova-android": "~6.1.1",
+        "cordova-plugin-whitelist": "1",
+        "cordova-plugin-wkwebview-engine": "~1.0.0"
+    }
+}
