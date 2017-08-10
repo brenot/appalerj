@@ -32,6 +32,7 @@ app.ajax={
  */
 app.ajax.deputadoSuccess=function( result, textStatus, jqXHR ){
 	app.ajax.listaDeputados = result;
+	console.log('app.ajax.deputadoSuccess', result);
 	montaListaDeputados();
 	
 };

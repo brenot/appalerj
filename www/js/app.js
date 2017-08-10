@@ -2,13 +2,13 @@
 var app = {
 
     contextPath: "http://apiportal.alerj.rj.gov.br",
-    //contextPathPortal: "http://apialerj.rj.gov.br", // --- direto no proderj
-    contextPathPortal: "http://apialerj.rj.gov.br",   // --- projetos especiais - alerj
+    // contextPathPortal: "http://apiportal.alerj.rj.gov.br/api/v1.0/proderj", // --- projetos especiais - alerj
 
-    contextPathPortal: "http://apiportal.alerj.rj.gov.br/api/v1.0/proderj",
-
-    //,contextPathPortal: "http://10.11.63.11:8040"
-	//,contextPathPortal: "http://10.11.63.11:8040"
+    // contextPath: "http://alerjmobile.dev/",
+    contextPathPortal: "http://alerjmobile.dev/api/v1.0/proderj", // --- projetos especiais - alerj
+    // contextPathPortal: "http://apialerj.rj.gov.br",               // --- direto no proderj
+    // contextPathPortal: "http://10.11.63.11:8040",
+	// contextPathPortal: "http://10.11.63.11:8040",
 		
     appPath: "/alerj",
 	

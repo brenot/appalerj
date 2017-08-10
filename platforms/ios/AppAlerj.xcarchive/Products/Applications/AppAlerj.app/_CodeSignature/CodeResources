@@ -86,7 +86,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		P1c7fJly/w9Q0fg3wixUR6fwlTw=
+		DUQqhZXTPBuvI3OZH24/6v3RxHc=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		pCKOfHaIZFg7Swsaqhe+AsksxL4=
+		MTs40PWTCIiit8ZTS5FxtnyVQv4=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -158,7 +158,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		xe3aZi+qDuDM5sQ/EqiUn97Zybs=
+		n84LhSueKqwMS+Cxq5gcgo/vpkw=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -214,7 +214,7 @@
 		</data>
 		<key>www/css/estilos.css</key>
 		<data>
-		7uyRz8zPdOa/ouBZL0DUwzKFCeA=
+		qozkM90ErWi2DfdbHAdtChjIrg0=
 		</data>
 		<key>www/css/images/ajax-loader.gif</key>
 		<data>
@@ -246,7 +246,7 @@
 		</data>
 		<key>www/deputados.html</key>
 		<data>
-		rhtSDwx5njiVIuYrYaKgx0zQRwk=
+		ClLbhkqtHX/aI+4omQ0UNI8FgKQ=
 		</data>
 		<key>www/deputados_interna.html</key>
 		<data>
@@ -544,6 +544,10 @@
 		<data>
 		0548BV5PY6+fPFY8sy01sAHdCc4=
 		</data>
+		<key>www/imagens/logo-carteiradadobem.png</key>
+		<data>
+		exoIG/L5FH6Xh6FxFt9VyRl8Mfs=
+		</data>
 		<key>www/imagens/logo-noticias.svg</key>
 		<data>
 		HWcWW9vs9fREj5qVYMJtjGYvXqk=
@@ -591,6 +595,22 @@
 		<key>www/imagens/radio-alerj.png</key>
 		<data>
 		sJqYdrLBXriN/CA2dEL9MxEi3RY=
+		</data>
+		<key>www/imagens/radio-microfone.png</key>
+		<data>
+		pEdEsLs3mCm79gDjoRvIwGBjMmQ=
+		</data>
+		<key>www/imagens/radio-rodape-2.png</key>
+		<data>
+		Z1QoEhgJs1PAY0vzOrkQOiDxZA8=
+		</data>
+		<key>www/imagens/radio-rodape-fundo.png</key>
+		<data>
+		1i2zNolIUC3UJFkNWHOdsQ7Kn6A=
+		</data>
+		<key>www/imagens/radio-rodape.png</key>
+		<data>
+		zsyHS+jrfxhedKBnLOUQjbUP7K8=
 		</data>
 		<key>www/imagens/saudacao.png</key>
 		<data>
@@ -642,7 +662,7 @@
 		</data>
 		<key>www/inicio.html</key>
 		<data>
-		AZGRXFDXwMyiFgRdr0n1eOm0MnE=
+		a3mjfXBtSneXhsJl9424Yl4gWJE=
 		</data>
 		<key>www/js/app.actions.js</key>
 		<data>
@@ -1614,7 +1634,7 @@
 		</data>
 		<key>www/radioalerj.html</key>
 		<data>
-		FV3Tqi9cVbQjpIYG95Xx+e4qbsA=
+		lGjOyTMb77p5Mt0pW/q1ihe4Vkk=
 		</data>
 		<key>www/regimentointerno.html</key>
 		<data>
@@ -1859,11 +1879,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			P1c7fJly/w9Q0fg3wixUR6fwlTw=
+			DUQqhZXTPBuvI3OZH24/6v3RxHc=
 			</data>
 			<key>hash2</key>
 			<data>
-			YK3PeWq3iLpvfFcV9wh3wQPJp3aZo0FpIlt0B1Jf1C8=
+			9nR4NU8xa9AjfzyEUgeVKTBbAP+xQWMEenjwGQjGhj4=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -1881,11 +1901,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pCKOfHaIZFg7Swsaqhe+AsksxL4=
+			MTs40PWTCIiit8ZTS5FxtnyVQv4=
 			</data>
 			<key>hash2</key>
 			<data>
-			zrw2qEChqt9GxW0VjPUD8IZU0Sp3te0c8LoftPP2+2M=
+			UHXL/rnGLsrz8+p0dnOXQL76PDgB+iP/TJzZiZJFs08=
 			</data>
 		</dict>
 		<key>LaunchImage-568h@2x.png</key>
@@ -2046,11 +2066,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xe3aZi+qDuDM5sQ/EqiUn97Zybs=
+			n84LhSueKqwMS+Cxq5gcgo/vpkw=
 			</data>
 			<key>hash2</key>
 			<data>
-			djbbYBtAwmSrq2TU/vzXeYuAxpPiKBay0/uaJdh3/F4=
+			dBhx7yvMpQ6YweyHn1o2LCiJYN9yqS6QybBFIHmifEs=
 			</data>
 		</dict>
 		<key>archived-expanded-entitlements.xcent</key>
@@ -2189,11 +2209,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7uyRz8zPdOa/ouBZL0DUwzKFCeA=
+			qozkM90ErWi2DfdbHAdtChjIrg0=
 			</data>
 			<key>hash2</key>
 			<data>
-			0tKwB4c5mk8qx0dG2X9VnyYoUMdHzxIBUvH2GPvmA/s=
+			gGWfydMSo2hx891qFtg98pyVoGP3xRGp11ET/aj6Zhc=
 			</data>
 		</dict>
 		<key>www/css/images/ajax-loader.gif</key>
@@ -2277,11 +2297,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rhtSDwx5njiVIuYrYaKgx0zQRwk=
+			ClLbhkqtHX/aI+4omQ0UNI8FgKQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			VqXkW6o3a0cbepXzHQ1LsQopvJRRzZd9UOxXoRPkl3k=
+			yn/X1+/AnPxJ/t2V1H+VxO+SMNnMjvYNW3B8QoI80V8=
 			</data>
 		</dict>
 		<key>www/deputados_interna.html</key>
@@ -3098,6 +3118,17 @@
 			8eVFK7Kl/ebswQOn58veQiqnPtwIzubqwj6Vyr16Q4M=
 			</data>
 		</dict>
+		<key>www/imagens/logo-carteiradadobem.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			exoIG/L5FH6Xh6FxFt9VyRl8Mfs=
+			</data>
+			<key>hash2</key>
+			<data>
+			lRKbyDi4HS66ohMFAuc+intdoI8YoeJJP6Qhm1hChsw=
+			</data>
+		</dict>
 		<key>www/imagens/logo-noticias.svg</key>
 		<dict>
 			<key>hash</key>
@@ -3228,6 +3259,50 @@
 			<key>hash2</key>
 			<data>
 			hVmEq/s7gqusoTHVsW30o0pjT6LXhu5EMDPsP3ai7z8=
+			</data>
+		</dict>
+		<key>www/imagens/radio-microfone.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pEdEsLs3mCm79gDjoRvIwGBjMmQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			jN/ZSQpZ3zoNljuzMmzWM9iRzKWUGqdibr2g3oDnNmY=
+			</data>
+		</dict>
+		<key>www/imagens/radio-rodape-2.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Z1QoEhgJs1PAY0vzOrkQOiDxZA8=
+			</data>
+			<key>hash2</key>
+			<data>
+			b3dlYqb4Wf75IhhkKAbPbqbUiDvCIYRJTYuMqRKuRcY=
+			</data>
+		</dict>
+		<key>www/imagens/radio-rodape-fundo.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1i2zNolIUC3UJFkNWHOdsQ7Kn6A=
+			</data>
+			<key>hash2</key>
+			<data>
+			iJuf6SiTcMmDfLx0hhw1fBYr5tpKEPno4rKTxlNmnOU=
+			</data>
+		</dict>
+		<key>www/imagens/radio-rodape.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zsyHS+jrfxhedKBnLOUQjbUP7K8=
+			</data>
+			<key>hash2</key>
+			<data>
+			i7gZU0MDIUaaznWqlw5YG1nHIabJhSARyySqc8jK1Gg=
 			</data>
 		</dict>
 		<key>www/imagens/saudacao.png</key>
@@ -3366,11 +3441,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AZGRXFDXwMyiFgRdr0n1eOm0MnE=
+			a3mjfXBtSneXhsJl9424Yl4gWJE=
 			</data>
 			<key>hash2</key>
 			<data>
-			ITWL8AC8Yk/z0Y4ibWQFw0qH2ZWkXhTV25eEiwK7CLw=
+			2+QYn2e1jwtwRltL13GD0Jnz4W2kmyOHhmSR+asnVzQ=
 			</data>
 		</dict>
 		<key>www/js/app.actions.js</key>
@@ -6039,11 +6114,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FV3Tqi9cVbQjpIYG95Xx+e4qbsA=
+			lGjOyTMb77p5Mt0pW/q1ihe4Vkk=
 			</data>
 			<key>hash2</key>
 			<data>
-			LASPfkIa8jl3rf0+MzjI4JXzfWUoc6wruriIhcOLpuo=
+			n9NvnEIv3QAeVfNIL5m60WeuCFsgysAyibNPxyQXMNg=
 			</data>
 		</dict>
 		<key>www/regimentointerno.html</key>
