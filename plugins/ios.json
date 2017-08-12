@@ -7,14 +7,20 @@
         "files": {}
     },
     "installed_plugins": {
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "gov.br.rj.alerj.app"
+        },
         "cordova-plugin-splashscreen": {
-            "PACKAGE_NAME": "br.gov.rj.proderj.appalerj"
+            "PACKAGE_NAME": "gov.br.rj.alerj.app"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "gov.br.rj.alerj.app"
+        },
+        "cordova-plugin-wkwebview-engine": {
+            "PACKAGE_NAME": "gov.br.rj.alerj.app"
         },
         "cordova-plugin-x-socialsharing": {
-            "PACKAGE_NAME": "br.gov.rj.proderj.appalerj"
-        },
-        "cordova-plugin-inappbrowser": {
-            "PACKAGE_NAME": "br.gov.rj.proderj.appalerj"
+            "PACKAGE_NAME": "gov.br.rj.alerj.app"
         }
     },
     "dependent_plugins": {}

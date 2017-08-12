@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="gov.br.alerj.app" version="1.4.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>AppAlerj</name>
+<widget id="gov.br.rj.alerj.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Alerj</name>
     <description>
-        Assembléia Legislativa do Estado do Rio de Janeiro
+        App Alerj - Assembléia Legislativa do Estado do Rio de Janeiro
     </description>
-    <author email="acr@antoniocarlosribeiro.com" href="http://cordova.io">
+    <author email="acr@antoniocarlosribeiro.com" href="https://antoniocarlosribeiro.com/">
         Antonio Carlos Ribeiro
     </author>
     <content src="inicio.html" />
@@ -16,6 +16,7 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <access origin="*" />
+    <access origin="*.alerj.rj.gov.br" />
     <access origin="*.aloalerj.rj.gov.br" />
     <access origin="*.antoniocarlosribeiro.com" />
     <access origin="*.youtube.com" />
@@ -79,7 +80,10 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <engine name="android" spec="~6.1.1" />
-    <engine name="ios" spec="~4.3.1" />
-    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <engine name="ios" spec="^4.4.0" />
+    <plugin name="cordova-plugin-inappbrowser" spec="~1.3.0" />
+    <plugin name="cordova-plugin-splashscreen" spec="~3.0.0" />
+    <plugin name="cordova-plugin-whitelist" spec="1.1.0" />
     <plugin name="cordova-plugin-wkwebview-engine" spec="~1.0.0" />
+    <plugin name="cordova-plugin-x-socialsharing" spec="~5.0.7" />
 </widget>
