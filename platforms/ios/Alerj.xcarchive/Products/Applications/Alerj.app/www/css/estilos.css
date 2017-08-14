@@ -3169,6 +3169,17 @@ body.bg_saudacao {
     .superior .logotipo {
         padding: 13px 70px 7px 70px;
     }
+
+    .radio-fundo{
+        height: 520px;
+    }
+    .radio-rodape {
+        width: 394px;
+    }
+    .radio-miolo {
+        width: 240px;
+        height: 240px;
+    }
     
     .principal.agenda .container .conteudo ul.eventos li a {
     width:350px;
