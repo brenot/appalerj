@@ -20,6 +20,7 @@
     <access origin="*.aloalerj.rj.gov.br" />
     <access origin="*.antoniocarlosribeiro.com" />
     <access origin="*.youtube.com" />
+    <access origin="*.carteiradadobem.com.br" />
     <allow-navigation href="*" />
     <allow-intent href="*" />
     <preference name="SplashScreen" value="screen" />

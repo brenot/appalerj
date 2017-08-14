@@ -223,7 +223,6 @@ function bootHome() {
 
     });
 
-
     $( "#inicio-page"  ).on( "click", ".menu-agenda", function() {
 
         app.ajax.mesAnoAgenda = '';
@@ -245,6 +244,12 @@ function bootHome() {
     $( "#inicio-page"  ).on( "click", ".menu-portal", function() {
 
         $( ":mobile-pagecontainer" ).pagecontainer( "change", "portal.html", { role: "page" , transition: 'slide'  } );
+
+    });
+
+    $( "#inicio-page"  ).on( "click", ".menu-carteirada", function() {
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "carteiradadobem.html", { role: "page", transition: 'slide'   } );
 
     });
 
