@@ -1,6 +1,16 @@
 var tvAlerjPlayer;
 var done = false;
 
+function loadData() {
+    jQuery.get(
+        app.apiPortal + '/tv',
+        {},
+        function(result) {
+            window.app.tv.video.id = result.video.id;
+        }
+    );
+}
+
 function validateEmail(email){
     var re = /\S+@\S+\.\S+/;
     return re.test(email);
@@ -106,16 +116,12 @@ function bootAloAlerj() {
 }
 
 function playTvAlerj() {
-    console.log('playTvAlerj');
-
     // 2. This code loads the IFrame Player API code asynchronously.
     var tag = document.createElement('script');
 
     tag.src = "https://www.youtube.com/iframe_api";
     var scriptTag = document.getElementsByTagName('script')[0];
     scriptTag.parentNode.insertBefore(tag, scriptTag);
-
-    console.log('configuring click');
 
     jQuery('.voltar > a').on('click', function () {
         console.log('voltar play tv');
@@ -126,7 +132,6 @@ function playTvAlerj() {
 
 function pauseTvAlerj() {
     if (typeof tvAlerjPlayer !== 'undefined') {
-        console.log('pause');
         tvAlerjPlayer.stopVideo();
     }
 }
@@ -138,7 +143,7 @@ function onYouTubeIframeAPIReady() {
     tvAlerjPlayer = new YT.Player('video-player', {
         height: '100%',
         width: '100%',
-        videoId: 'e5iGB-228QA',
+        videoId: app.tv.video.id,
         events: {
             'onReady': onPlayerReady,
             'onStateChange': onPlayerStateChange
@@ -161,8 +166,6 @@ function onPlayerStateChange(event) {
 }
 
 function bootHome() {
-    console.log('bootHome');
-
     $( "#inicio-page"  ).on( "click", ".menu-tvalerj", function() {
 
         $( ":mobile-pagecontainer" ).pagecontainer( "change", "tvalerj.html", { role: "page", transition: 'slide'  } );

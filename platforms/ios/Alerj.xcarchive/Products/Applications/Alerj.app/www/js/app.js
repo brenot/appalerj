@@ -2,6 +2,9 @@
 var app = {
 
     contextPath: "http://apiportal.alerj.rj.gov.br",
+
+    apiPortal: "http://apiportal.alerj.rj.gov.br/api/v1.0",
+
     contextPathPortal: "http://apiportal.alerj.rj.gov.br/api/v1.0/proderj", // --- projetos especiais - alerj
 
     // contextPath: "http://alerjmobile.dev/",
@@ -17,8 +20,15 @@ var app = {
     version: "1.0.0 RC1 (Projetos Especiais)",
 
     crossdomain : false,
+
     crossdomainPortal : false,
-	
+
+    tv: {
+        video: {
+            id: 'pWWZvST5JMo',
+        }
+    },
+
 	//path a ser configurado quando os acessos serao crossdomain. Servidor de servicos que so aceita requisicoes AJAX GET.
     remoteServicePath : "/api/v1.0",
     remoteServicePathPortal : "/portal.alerj.service/api",
@@ -62,6 +72,7 @@ var app = {
 		document.write( link.join( "" ) );
 	},
 }
+
 if ( typeof console == "undefined" ) {
 	// Evita erro de console do firefox nao inicialisado.
 	console = {

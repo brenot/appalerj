@@ -86,7 +86,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		MHxDMJtlZfVi7iHkmMmILkGJQPE=
+		D6zZ9t/0Ibiry1KjF01LIvHuhtg=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		DDbrme6LItVjkMP/rRz2e4cxUwk=
+		LlS56R6c6EtlC8FTO1U2lLzVrTU=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -158,7 +158,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		GzMLrxtiUt+U71wzGd2j8fefe7o=
+		8RAuoKCCK/XcvYpgohpcY/J1yJ8=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -666,7 +666,7 @@
 		</data>
 		<key>www/inicio.html</key>
 		<data>
-		r8DP8L8oHJTMT3iFcMP1xOaq5Kw=
+		zQY5H6twhABlILM38cP2tkPmq5w=
 		</data>
 		<key>www/js/app.actions.js</key>
 		<data>
@@ -682,7 +682,7 @@
 		</data>
 		<key>www/js/app.js</key>
 		<data>
-		PKYQQNM0MtY7/g4a0Nh9I0sOBYk=
+		PTlHt0j6DhJKOg9yywMfVV8W+jg=
 		</data>
 		<key>www/js/app.mobile.js</key>
 		<data>
@@ -702,7 +702,7 @@
 		</data>
 		<key>www/js/helpers.js</key>
 		<data>
-		rQE89KC6YW9nlF23sjp9eNhp6FQ=
+		86GO5Vjd5pAXXG1ZHjyoEMNnXIQ=
 		</data>
 		<key>www/js/images/ajax-loader.gif</key>
 		<data>
@@ -1891,11 +1891,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MHxDMJtlZfVi7iHkmMmILkGJQPE=
+			D6zZ9t/0Ibiry1KjF01LIvHuhtg=
 			</data>
 			<key>hash2</key>
 			<data>
-			8lpATJATid1diGmqNzcN9kFULRLFBcMaiOOV57gyndg=
+			ws+RYju6i4RlK0uS5bcM0c+Or/ygjOWFN5BzFAAMcNw=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -1913,11 +1913,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DDbrme6LItVjkMP/rRz2e4cxUwk=
+			LlS56R6c6EtlC8FTO1U2lLzVrTU=
 			</data>
 			<key>hash2</key>
 			<data>
-			Kgz2cNhC0f55WdzgO6imu44kUOebwoYO8qgd5V1r4z0=
+			fVoMlclXQt4ezmNGlLaEPdYb+HDG0URna2qvHovPS/E=
 			</data>
 		</dict>
 		<key>LaunchImage-568h@2x.png</key>
@@ -2078,11 +2078,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GzMLrxtiUt+U71wzGd2j8fefe7o=
+			8RAuoKCCK/XcvYpgohpcY/J1yJ8=
 			</data>
 			<key>hash2</key>
 			<data>
-			37MFNjTxRNKRu/R/sXKq59lvEWV99nvOqBngzb3oDjw=
+			an4SRrfDnZh/sM5Ei869hCP6yaMESOJDJbaV9UA43Fw=
 			</data>
 		</dict>
 		<key>archived-expanded-entitlements.xcent</key>
@@ -3464,11 +3464,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			r8DP8L8oHJTMT3iFcMP1xOaq5Kw=
+			zQY5H6twhABlILM38cP2tkPmq5w=
 			</data>
 			<key>hash2</key>
 			<data>
-			RzttCzmtmpAmHJ32EFs0jzRBSYmd9FxiF1iFD8ccbmg=
+			wh2WC2J9W34vUQB3gyNewjBKCxW0rXX/OzvwtwNmw+Y=
 			</data>
 		</dict>
 		<key>www/js/app.actions.js</key>
@@ -3508,11 +3508,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PKYQQNM0MtY7/g4a0Nh9I0sOBYk=
+			PTlHt0j6DhJKOg9yywMfVV8W+jg=
 			</data>
 			<key>hash2</key>
 			<data>
-			R1b089Mfa8z/ogANhVs8XKMsp7rViADAtUzrBCmmEeg=
+			+qLoKRPa+xQ03e1Gc+vUm9OGSCHVUSwGngUj1TYlV2k=
 			</data>
 		</dict>
 		<key>www/js/app.mobile.js</key>
@@ -3563,11 +3563,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rQE89KC6YW9nlF23sjp9eNhp6FQ=
+			86GO5Vjd5pAXXG1ZHjyoEMNnXIQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			kmF44D+oF0mWxEabdqXNxxJ28phlZtJqTmz9GbVU0Pc=
+			fDIwkKJv7ZweooFAwZK7tBYSqxStO74+k5VeCHnHoeQ=
 			</data>
 		</dict>
 		<key>www/js/images/ajax-loader.gif</key>
