@@ -219,7 +219,7 @@ function bootHome() {
     });
 
 
-    $( "#inicio-page"  ).on( "click", ".menu-fale", function() {
+    $( "#inicio-page"  ).on( "click", ".menu-aloalerj", function() {
 
 
         $( ":mobile-pagecontainer" ).pagecontainer( "change", "faleconosco.html", { role: "page", transition: 'slide'   } );
@@ -256,6 +256,20 @@ function bootHome() {
 
     });
 
+    $( "#inicio-page"  ).on( "click", ".menu-comissoes", function() {
+
+        $(":mobile-pagecontainer").on("pagecontainerchange", function( event, ui ) {
+            bootComissoes();
+        } );
+
+        $(":mobile-pagecontainer").pagecontainer( "change", "comissoes.html", {
+            role: "page",
+
+            transition: 'slide',
+        });
+
+    });
+
     // enable swipe for android
     $.event.special.swipe.scrollSupressionThreshold = 10;
     $.event.special.swipe.horizontalDistanceThreshold = 30;
@@ -273,4 +287,41 @@ function bootHome() {
     });
 
     $(window).on('resize load',adjustIframes);
+}
+
+function bootComissoes()
+{
+    console.log('boot comissoes');
+
+    $( "#comissoes-page"  ).on( "click", ".menu-comissoes-oquesao", function() {
+
+        console.log('o que são!');
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "comissoes-oquesao.html", { role: "page", transition: 'slide'   } );
+
+    });
+
+    $( "#comissoes-page"  ).on( "click", ".menu-comissoes-permanentes", function() {
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "comissoes-oquesao.html", { role: "page", transition: 'slide'   } );
+
+    });
+
+    $( "#comissoes-page"  ).on( "click", ".menu-comissoes-cpi", function() {
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "comissoes-oquesao.html", { role: "page", transition: 'slide'   } );
+
+    });
+
+    $( "#comissoes-page"  ).on( "click", ".menu-comissoes-especiais", function() {
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "comissoes-oquesao.html", { role: "page", transition: 'slide'   } );
+
+    });
+
+    $( "#comissoes-page"  ).on( "click", ".menu-comissoes-representacao", function() {
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "comissoes-oquesao.html", { role: "page", transition: 'slide'   } );
+
+    });
 }

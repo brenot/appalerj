@@ -86,7 +86,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		D6zZ9t/0Ibiry1KjF01LIvHuhtg=
+		rcvTytyESYzhV5APp9RojX3KMuw=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -94,11 +94,11 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		LlS56R6c6EtlC8FTO1U2lLzVrTU=
+		xtIJcGSEmu44MZh8GElM8bWA5j8=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		TAE+ZRdeCIA9X4cGzBsMoT+fS/k=
+		2+cTWOfFLsaMEUQRAnLXWBT+O80=
 		</data>
 		<key>LaunchImage-568h@2x.png</key>
 		<data>
@@ -158,7 +158,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		8RAuoKCCK/XcvYpgohpcY/J1yJ8=
+		lVgoiQOclDAxVGixgfdquFu6A8s=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -174,27 +174,51 @@
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		trkKQGd2XJ3h3Y56JIv5nXHhVfs=
+		c2btg/sXyWzCrCSZU5ZOanoKfKY=
 		</data>
 		<key>www/agenda.html</key>
 		<data>
-		zJ+Wovq78mED136dmQ0nXyJdYfU=
+		+/xySIKKAInEiTRrAmGMzhXfMvo=
 		</data>
 		<key>www/agenda_interna.html</key>
 		<data>
-		E29JogPRPaaNi+MkTT145mF7M8U=
+		O/myDx0OPK/g14AX02qvYKjRIAo=
 		</data>
 		<key>www/busca_ordem_resultado.html</key>
 		<data>
-		IxbJCsRXCHqD+XezcoiQ6rrR1do=
+		xq0tKitWwB5Fnb0/WTj2tEG/pco=
 		</data>
 		<key>www/busca_resultado.html</key>
 		<data>
-		ix55jIwhQ1b9myDC/0LQyvpobgk=
+		rBwDH1RUMmaQbXhZcwmR8CTIUGQ=
 		</data>
 		<key>www/carteiradadobem.html</key>
 		<data>
 		RObeffSRN56fBsglp7jMrZ6mjps=
+		</data>
+		<key>www/comissoes-cpi.html</key>
+		<data>
+		9fb0k9IbG7iXqyHTbWVuz3D56s8=
+		</data>
+		<key>www/comissoes-especiais.html</key>
+		<data>
+		HJCkpMcqTX+fglDw/XO4Reae/XY=
+		</data>
+		<key>www/comissoes-oquesao.html</key>
+		<data>
+		TI+xZaRkxbMxAxdWVuIygwUphHM=
+		</data>
+		<key>www/comissoes-permanentes.html</key>
+		<data>
+		e6eKX4HVfwzOqvex2VyIjuikmaE=
+		</data>
+		<key>www/comissoes-representacao.html</key>
+		<data>
+		sAYNr0euD9BreVuUZ+vj7jFdK04=
+		</data>
+		<key>www/comissoes.html</key>
+		<data>
+		b/h746jRs29ufhIE7w1khhuw9k0=
 		</data>
 		<key>www/cordova-js-src/exec.js</key>
 		<data>
@@ -214,11 +238,11 @@
 		</data>
 		<key>www/css/bootstrap.css</key>
 		<data>
-		HyqZDbmAcsiVA/c/hzLhA7e2h+k=
+		8hg0VVcbGTEaI1vVqiBOaUrejpQ=
 		</data>
 		<key>www/css/estilos.css</key>
 		<data>
-		aQ8jhEGLCi8s7/2bGG1uMfvV/h0=
+		4D/BelNxYNIArFtFQRAnYWYR+W4=
 		</data>
 		<key>www/css/images/ajax-loader.gif</key>
 		<data>
@@ -250,11 +274,11 @@
 		</data>
 		<key>www/deputados.html</key>
 		<data>
-		ClLbhkqtHX/aI+4omQ0UNI8FgKQ=
+		5rlJTcIvRIjsIF/0s0ksn3rEN8Y=
 		</data>
 		<key>www/deputados_interna.html</key>
 		<data>
-		CNMJ612b8bVbH/SEag4eP+Ufm1k=
+		Eni6+Isdswjc0VWjIkjURVi4iqU=
 		</data>
 		<key>www/faleconosco.html</key>
 		<data>
@@ -266,7 +290,7 @@
 		</data>
 		<key>www/fonts/glyphicons-halflings-regular.svg</key>
 		<data>
-		Tc8KuJb1QXBH+IHekbrRDcvaSMY=
+		3lGoSUGAptsHSvLe4jg/CjY8Wwg=
 		</data>
 		<key>www/fonts/glyphicons-halflings-regular.ttf</key>
 		<data>
@@ -574,7 +598,7 @@
 		</data>
 		<key>www/imagens/logotipo.svg</key>
 		<data>
-		T4HlaDVCrHA5gImXwxkHiuRu//A=
+		LVuwx30W9HotLQetOdHfJ/IY/qI=
 		</data>
 		<key>www/imagens/menu-direita.png</key>
 		<data>
@@ -666,7 +690,7 @@
 		</data>
 		<key>www/inicio.html</key>
 		<data>
-		zQY5H6twhABlILM38cP2tkPmq5w=
+		L9Hy94SJPQXs6HGRbtXi0+rCKOk=
 		</data>
 		<key>www/js/app.actions.js</key>
 		<data>
@@ -678,7 +702,7 @@
 		</data>
 		<key>www/js/app.bus.js</key>
 		<data>
-		kEOLGXsR/eZXx+CBm/4tbfPeTX8=
+		vWmO6qwXatThXrZ6fKRh9XxJukU=
 		</data>
 		<key>www/js/app.js</key>
 		<data>
@@ -686,7 +710,7 @@
 		</data>
 		<key>www/js/app.mobile.js</key>
 		<data>
-		YO/VtUoHbhUMzXcTg/o/8JVZX8o=
+		lpibwt5AsNBF+Y9JX/4a2ebhJXk=
 		</data>
 		<key>www/js/app.pubsub.js</key>
 		<data>
@@ -694,7 +718,7 @@
 		</data>
 		<key>www/js/bootstrap.js</key>
 		<data>
-		HEhymaokJMlh8WZz5dpJ7AWKbEs=
+		VCz9U58MrWUDQsjKuLrxzbzV/qY=
 		</data>
 		<key>www/js/cordova.js</key>
 		<data>
@@ -702,7 +726,7 @@
 		</data>
 		<key>www/js/helpers.js</key>
 		<data>
-		86GO5Vjd5pAXXG1ZHjyoEMNnXIQ=
+		h/+HRNIlsLt1hz5kyNabiU1EtPg=
 		</data>
 		<key>www/js/images/ajax-loader.gif</key>
 		<data>
@@ -1510,11 +1534,11 @@
 		</data>
 		<key>www/js/javascript.js</key>
 		<data>
-		tAgZRiOBrZFStYRJFxHwQDlGfqA=
+		3Q6ixLkyHAEXgA6W/nXnR/VPLd8=
 		</data>
 		<key>www/js/jquery-1.11.2.min.js</key>
 		<data>
-		R+zfYus89FukhnhGy2GvpwNp0jo=
+		gTBUTCFf5dHsCB2DRhv0pxHnSII=
 		</data>
 		<key>www/js/jquery-ui.js</key>
 		<data>
@@ -1602,7 +1626,7 @@
 		</data>
 		<key>www/js/pagebus/pagebus.js</key>
 		<data>
-		IN6qEXbZabEd9XQLrS6go8qsTPg=
+		Yhy7V2RQb1h18zF1u9Ib25aeXoo=
 		</data>
 		<key>www/js/require.js</key>
 		<data>
@@ -1614,11 +1638,11 @@
 		</data>
 		<key>www/ordemdodia.html</key>
 		<data>
-		nZPy5Gt023+a0XODU6ob1eQib2M=
+		utaG7pGYxkn+ljVy70MigiD1vMw=
 		</data>
 		<key>www/ordemdodia_interna.html</key>
 		<data>
-		Jk040ZhPEnMb2cfe6Chg4yauEBg=
+		7bXoL8ThCKdfuMqqj8L5MFNrA1I=
 		</data>
 		<key>www/plugins/cordova-plugin-inappbrowser/www/inappbrowser.js</key>
 		<data>
@@ -1650,11 +1674,11 @@
 		</data>
 		<key>www/regimentointerno.html</key>
 		<data>
-		kuc6pri3BctjMif05pWUGCLPhRA=
+		l6bzloWDN+6Kp/YpJdVnMmsKHFo=
 		</data>
 		<key>www/regimentointerno_interna.html</key>
 		<data>
-		bYs55MCVvivMAQK69RY8hPEShQ8=
+		vAd6cj3VIR6daFJN9RaG3nSSN4A=
 		</data>
 		<key>www/transparencia.html</key>
 		<data>
@@ -1662,7 +1686,7 @@
 		</data>
 		<key>www/tvalerj.html</key>
 		<data>
-		QpxspTgkrqxbpO0dmfGscTmp1bk=
+		qgml09KiGBFGO3sy4z6qd9PrWDY=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -1891,11 +1915,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			D6zZ9t/0Ibiry1KjF01LIvHuhtg=
+			rcvTytyESYzhV5APp9RojX3KMuw=
 			</data>
 			<key>hash2</key>
 			<data>
-			ws+RYju6i4RlK0uS5bcM0c+Or/ygjOWFN5BzFAAMcNw=
+			tLQ/E4csriqgZr6bm2SGi6O0FuGDBwb+WwCPEJu/UAQ=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -1913,11 +1937,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LlS56R6c6EtlC8FTO1U2lLzVrTU=
+			xtIJcGSEmu44MZh8GElM8bWA5j8=
 			</data>
 			<key>hash2</key>
 			<data>
-			fVoMlclXQt4ezmNGlLaEPdYb+HDG0URna2qvHovPS/E=
+			+0JDMbzH5j+DFLNN+tOWSfitU2TFsHx8CmXUYIAdLnI=
 			</data>
 		</dict>
 		<key>LaunchImage-568h@2x.png</key>
@@ -2078,11 +2102,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8RAuoKCCK/XcvYpgohpcY/J1yJ8=
+			lVgoiQOclDAxVGixgfdquFu6A8s=
 			</data>
 			<key>hash2</key>
 			<data>
-			an4SRrfDnZh/sM5Ei869hCP6yaMESOJDJbaV9UA43Fw=
+			qEHZswTEdI+VTsuzaTd1c1/k7DjRPjELiRF4rnTJ1Zs=
 			</data>
 		</dict>
 		<key>archived-expanded-entitlements.xcent</key>
@@ -2111,55 +2135,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			trkKQGd2XJ3h3Y56JIv5nXHhVfs=
+			c2btg/sXyWzCrCSZU5ZOanoKfKY=
 			</data>
 			<key>hash2</key>
 			<data>
-			/y/GdGnwggxv0pjATw7MlelvKxNddkcOdaBtmXdgSnw=
+			NUuYiqAWelxLAVpmjUWM67yeZ95LiBMa7B9efNK13eg=
 			</data>
 		</dict>
 		<key>www/agenda.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zJ+Wovq78mED136dmQ0nXyJdYfU=
+			+/xySIKKAInEiTRrAmGMzhXfMvo=
 			</data>
 			<key>hash2</key>
 			<data>
-			bGehCbCukItFjOQFvCal/GxTsE3yvwHkBbqHOlvuw9k=
+			e5Y+zntJE9ZlK+07Kiz4GJiCxlOoX8TK1J4rtHHW+YM=
 			</data>
 		</dict>
 		<key>www/agenda_interna.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			E29JogPRPaaNi+MkTT145mF7M8U=
+			O/myDx0OPK/g14AX02qvYKjRIAo=
 			</data>
 			<key>hash2</key>
 			<data>
-			oR7+dEBvZkeFPzULpbhv3zMVjx3qHk45GnwMKx6rP4Q=
+			6cyUrfaGq4SbytzXDbkzM0aOFwhPIqasgzIK/Rs2fSE=
 			</data>
 		</dict>
 		<key>www/busca_ordem_resultado.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IxbJCsRXCHqD+XezcoiQ6rrR1do=
+			xq0tKitWwB5Fnb0/WTj2tEG/pco=
 			</data>
 			<key>hash2</key>
 			<data>
-			l4XsT79BJQEZa+rljkzMwNHkxJBDiBsnYrVyihJuTvI=
+			R+81GoseeiRnSA0wHSkhty6sr02WB5bXpE4BKE+Sgyk=
 			</data>
 		</dict>
 		<key>www/busca_resultado.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ix55jIwhQ1b9myDC/0LQyvpobgk=
+			rBwDH1RUMmaQbXhZcwmR8CTIUGQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			EqIsb6pbCw3us3VLChFGX1tA6+4EcqDe0kn4+o3+gTo=
+			Mq/GyfVvixvXSocuqVQ5IZ2ySz/otrXTj+jRomoKT8k=
 			</data>
 		</dict>
 		<key>www/carteiradadobem.html</key>
@@ -2171,6 +2195,72 @@
 			<key>hash2</key>
 			<data>
 			VOqR7XoILI7TXMqy7aALlxzovAaVEh7tXckvQMBvntY=
+			</data>
+		</dict>
+		<key>www/comissoes-cpi.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9fb0k9IbG7iXqyHTbWVuz3D56s8=
+			</data>
+			<key>hash2</key>
+			<data>
+			ILYF3A3VjCxFU+NdHkkgMI7wN58gZ3Qvvltq5+tFLGQ=
+			</data>
+		</dict>
+		<key>www/comissoes-especiais.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HJCkpMcqTX+fglDw/XO4Reae/XY=
+			</data>
+			<key>hash2</key>
+			<data>
+			hYif92LThglryY5S0tfBW9uwte7S+ynDfmFiHl25c0w=
+			</data>
+		</dict>
+		<key>www/comissoes-oquesao.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TI+xZaRkxbMxAxdWVuIygwUphHM=
+			</data>
+			<key>hash2</key>
+			<data>
+			Bd5z2lzT6NiSlaRDoZfHjZGQu5oEKoH+ISRmes4FdwA=
+			</data>
+		</dict>
+		<key>www/comissoes-permanentes.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			e6eKX4HVfwzOqvex2VyIjuikmaE=
+			</data>
+			<key>hash2</key>
+			<data>
+			RUlAUvFgeZSNXywc8RjK/g5E1kIqGOxwbBciUEjxAqY=
+			</data>
+		</dict>
+		<key>www/comissoes-representacao.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sAYNr0euD9BreVuUZ+vj7jFdK04=
+			</data>
+			<key>hash2</key>
+			<data>
+			iW/fceFFLJDzutxnbKaUUbX4KTxyb8Ls8SC5Al/pJbE=
+			</data>
+		</dict>
+		<key>www/comissoes.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			b/h746jRs29ufhIE7w1khhuw9k0=
+			</data>
+			<key>hash2</key>
+			<data>
+			ys80mjkZXXCe7F4ZQ/MT9HVHIgTj6vilbMF/Mcp7qps=
 			</data>
 		</dict>
 		<key>www/cordova-js-src/exec.js</key>
@@ -2221,22 +2311,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HyqZDbmAcsiVA/c/hzLhA7e2h+k=
+			8hg0VVcbGTEaI1vVqiBOaUrejpQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			TDMphcv7hGiFDPnqW86s/3EIYCBnuzQNu0yYCyxaXh4=
+			yUJoYBDihWM9d6JDQcQ4UMzWFi/MfoKBropwwpIamvU=
 			</data>
 		</dict>
 		<key>www/css/estilos.css</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aQ8jhEGLCi8s7/2bGG1uMfvV/h0=
+			4D/BelNxYNIArFtFQRAnYWYR+W4=
 			</data>
 			<key>hash2</key>
 			<data>
-			iG9krKLfSn1G6vXyvSXsCwS8LaFBT5fZPAAfBOq1qFw=
+			059IRulcGD6PAAQeEgTB+NyJXPjR2puDfXfxIfbggR0=
 			</data>
 		</dict>
 		<key>www/css/images/ajax-loader.gif</key>
@@ -2320,22 +2410,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ClLbhkqtHX/aI+4omQ0UNI8FgKQ=
+			5rlJTcIvRIjsIF/0s0ksn3rEN8Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			yn/X1+/AnPxJ/t2V1H+VxO+SMNnMjvYNW3B8QoI80V8=
+			swZxPVPcjmnTnYIcbH0M8c81tVEB++BjYmBLEHLN4LY=
 			</data>
 		</dict>
 		<key>www/deputados_interna.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CNMJ612b8bVbH/SEag4eP+Ufm1k=
+			Eni6+Isdswjc0VWjIkjURVi4iqU=
 			</data>
 			<key>hash2</key>
 			<data>
-			Vk378yEDo7PXne+kVGS6+0jgPrE2MlBUy3AbtnjkqGU=
+			LCPyoFXT7KwKI4g25YHhO8U4kl9c3oWrXUx0c1MJlsQ=
 			</data>
 		</dict>
 		<key>www/faleconosco.html</key>
@@ -2364,11 +2454,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Tc8KuJb1QXBH+IHekbrRDcvaSMY=
+			3lGoSUGAptsHSvLe4jg/CjY8Wwg=
 			</data>
 			<key>hash2</key>
 			<data>
-			2YXNoDTqtMnyQDl2+NFx+/bvxLWTEH2LFAHlttqkYpU=
+			QvYGWdJlwaPDD5+kKry7Vr1KU69Ng9MW1t16NpA8Q+U=
 			</data>
 		</dict>
 		<key>www/fonts/glyphicons-halflings-regular.ttf</key>
@@ -3211,11 +3301,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			T4HlaDVCrHA5gImXwxkHiuRu//A=
+			LVuwx30W9HotLQetOdHfJ/IY/qI=
 			</data>
 			<key>hash2</key>
 			<data>
-			Iu8sq9bwHl5ByM8qKQJNnxE2N22/KJtvTWcuy8CJX/c=
+			7MNv0Z/qVw92DcrVOnVZcVZv5FKgtVvcxBJncAxGe1M=
 			</data>
 		</dict>
 		<key>www/imagens/menu-direita.png</key>
@@ -3464,11 +3554,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zQY5H6twhABlILM38cP2tkPmq5w=
+			L9Hy94SJPQXs6HGRbtXi0+rCKOk=
 			</data>
 			<key>hash2</key>
 			<data>
-			wh2WC2J9W34vUQB3gyNewjBKCxW0rXX/OzvwtwNmw+Y=
+			iziyXbwScjEa6CrngEYPWTsAIvHH8wyeZhE31QYZNBw=
 			</data>
 		</dict>
 		<key>www/js/app.actions.js</key>
@@ -3497,11 +3587,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kEOLGXsR/eZXx+CBm/4tbfPeTX8=
+			vWmO6qwXatThXrZ6fKRh9XxJukU=
 			</data>
 			<key>hash2</key>
 			<data>
-			ya8acyifK4dRp2o10htYmVCJcK505FVFUx0aL4EFKLk=
+			ce+j470kc5Bri0uHkoK4fKrClWVs1O+UTlyvie7BDXU=
 			</data>
 		</dict>
 		<key>www/js/app.js</key>
@@ -3519,11 +3609,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YO/VtUoHbhUMzXcTg/o/8JVZX8o=
+			lpibwt5AsNBF+Y9JX/4a2ebhJXk=
 			</data>
 			<key>hash2</key>
 			<data>
-			qCluahTXALV0dPYh20460MpWXOqWVuwTTFxHVhKLK1E=
+			mYELJlASp1BQBBeh0Fwi4+8/hawliOI20uB/UEnrOtc=
 			</data>
 		</dict>
 		<key>www/js/app.pubsub.js</key>
@@ -3541,11 +3631,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HEhymaokJMlh8WZz5dpJ7AWKbEs=
+			VCz9U58MrWUDQsjKuLrxzbzV/qY=
 			</data>
 			<key>hash2</key>
 			<data>
-			wdTX/id0EIIF9SX0gdMDF/7kpWXE/Sg8IVt6c+yhwJk=
+			Qa+WnuAOgTKgBACU2ysaeaFbTZt+K7SFASlw/fe1xFU=
 			</data>
 		</dict>
 		<key>www/js/cordova.js</key>
@@ -3563,11 +3653,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			86GO5Vjd5pAXXG1ZHjyoEMNnXIQ=
+			h/+HRNIlsLt1hz5kyNabiU1EtPg=
 			</data>
 			<key>hash2</key>
 			<data>
-			fDIwkKJv7ZweooFAwZK7tBYSqxStO74+k5VeCHnHoeQ=
+			7HXuwFSxqEarccy6UbOgwbGcSJ8Rp/X0I5VrfiaDxcw=
 			</data>
 		</dict>
 		<key>www/js/images/ajax-loader.gif</key>
@@ -5785,22 +5875,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tAgZRiOBrZFStYRJFxHwQDlGfqA=
+			3Q6ixLkyHAEXgA6W/nXnR/VPLd8=
 			</data>
 			<key>hash2</key>
 			<data>
-			ykUB9LahQp3K8TQY666JjfwysctGuOqhQC4Jx/uIr+E=
+			nK1wHaDzgRAQsU+64bUWg0J9Wg5MUhi+X/vfwWAi0mQ=
 			</data>
 		</dict>
 		<key>www/js/jquery-1.11.2.min.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			R+zfYus89FukhnhGy2GvpwNp0jo=
+			gTBUTCFf5dHsCB2DRhv0pxHnSII=
 			</data>
 			<key>hash2</key>
 			<data>
-			onGj+ePK6JfO1mnWZSaZ6UeSjvCV5WOExPndBLu5Quw=
+			Ls0pXSlb7AYs7evhd+VLnWsZ/AqEHcXBeMZUycz/CcA=
 			</data>
 		</dict>
 		<key>www/js/jquery-ui.js</key>
@@ -6038,11 +6128,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IN6qEXbZabEd9XQLrS6go8qsTPg=
+			Yhy7V2RQb1h18zF1u9Ib25aeXoo=
 			</data>
 			<key>hash2</key>
 			<data>
-			p/xJSZcqp/tlF4hMc+qkCL+vpkrKUP7cXmFb1O0ebHg=
+			IgS9adNyG4K3sc54D5vx36t7oCQIBL1cPZEJQoNqfmI=
 			</data>
 		</dict>
 		<key>www/js/require.js</key>
@@ -6071,22 +6161,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nZPy5Gt023+a0XODU6ob1eQib2M=
+			utaG7pGYxkn+ljVy70MigiD1vMw=
 			</data>
 			<key>hash2</key>
 			<data>
-			8l0etDrvflKpjTZ4FMiKy0NaqTHXodJ904BHjICdsAE=
+			+Wu6dqmIp8rOoXkM7Ni3euIVsDEEMEaXbRNKv4SMD4U=
 			</data>
 		</dict>
 		<key>www/ordemdodia_interna.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Jk040ZhPEnMb2cfe6Chg4yauEBg=
+			7bXoL8ThCKdfuMqqj8L5MFNrA1I=
 			</data>
 			<key>hash2</key>
 			<data>
-			x/SzPtBjqeQtcNRvSTCqgmzqQI5pWcqNT+6sTwR6BuE=
+			vDVnAmlxIzty5JF7nGD+bAiZEdO/gLesqHYF2PP8nMw=
 			</data>
 		</dict>
 		<key>www/plugins/cordova-plugin-inappbrowser/www/inappbrowser.js</key>
@@ -6170,22 +6260,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kuc6pri3BctjMif05pWUGCLPhRA=
+			l6bzloWDN+6Kp/YpJdVnMmsKHFo=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q56Pzyd/YP287kj1WCkPGIV2uHZ76Z3mZ0qOzkjyo24=
+			R9JHQRQbeQ14DLGYNJVhDdmgNracPGgjc360iUso8/I=
 			</data>
 		</dict>
 		<key>www/regimentointerno_interna.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bYs55MCVvivMAQK69RY8hPEShQ8=
+			vAd6cj3VIR6daFJN9RaG3nSSN4A=
 			</data>
 			<key>hash2</key>
 			<data>
-			8Z0n20Qoc/rFfExrQ7vGRoJk1eIwVKj3YVZC6LC2FzI=
+			5C1cd2nCaRkaHOVGmj2lBkK1UCUta/oPZS+VhYeu/KM=
 			</data>
 		</dict>
 		<key>www/transparencia.html</key>
@@ -6203,11 +6293,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QpxspTgkrqxbpO0dmfGscTmp1bk=
+			qgml09KiGBFGO3sy4z6qd9PrWDY=
 			</data>
 			<key>hash2</key>
 			<data>
-			UKpMnBvwkzYYTBvwmRejfoVPEyjhucB1fi3kP3kVQxM=
+			55aj3ko85OJ29YVqn9zYUbBj7Yp43i0I2UFFec/m+JQ=
 			</data>
 		</dict>
 	</dict>

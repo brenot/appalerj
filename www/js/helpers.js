@@ -258,37 +258,15 @@ function bootHome() {
 
     $( "#inicio-page"  ).on( "click", ".menu-comissoes", function() {
 
-        $( ":mobile-pagecontainer" ).pagecontainer( "change", "comissoes.html", { role: "page", transition: 'slide'   } );
+        $(":mobile-pagecontainer").on("pagecontainerchange", function( event, ui ) {
+            bootComissoes();
+        } );
 
-    });
+        $(":mobile-pagecontainer").pagecontainer( "change", "comissoes.html", {
+            role: "page",
 
-    $( "#inicio-page"  ).on( "click", ".menu-comissoes-oquesao", function() {
-
-        $( ":mobile-pagecontainer" ).pagecontainer( "change", "comissoes-oquesao.html", { role: "page", transition: 'slide'   } );
-
-    });
-
-    $( "#inicio-page"  ).on( "click", ".menu-comissoes-permanentes", function() {
-
-        $( ":mobile-pagecontainer" ).pagecontainer( "change", "comissoes-oquesao.html", { role: "page", transition: 'slide'   } );
-
-    });
-
-    $( "#inicio-page"  ).on( "click", ".menu-comissoes-cpi", function() {
-
-        $( ":mobile-pagecontainer" ).pagecontainer( "change", "comissoes-oquesao.html", { role: "page", transition: 'slide'   } );
-
-    });
-
-    $( "#inicio-page"  ).on( "click", ".menu-comissoes-especiais", function() {
-
-        $( ":mobile-pagecontainer" ).pagecontainer( "change", "comissoes-oquesao.html", { role: "page", transition: 'slide'   } );
-
-    });
-
-    $( "#inicio-page"  ).on( "click", ".menu-comissoes-representacao", function() {
-
-        $( ":mobile-pagecontainer" ).pagecontainer( "change", "comissoes-oquesao.html", { role: "page", transition: 'slide'   } );
+            transition: 'slide',
+        });
 
     });
 
@@ -309,4 +287,41 @@ function bootHome() {
     });
 
     $(window).on('resize load',adjustIframes);
+}
+
+function bootComissoes()
+{
+    console.log('boot comissoes');
+
+    $( "#comissoes-page"  ).on( "click", ".menu-comissoes-oquesao", function() {
+
+        console.log('o que são!');
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "comissoes-oquesao.html", { role: "page", transition: 'slide'   } );
+
+    });
+
+    $( "#comissoes-page"  ).on( "click", ".menu-comissoes-permanentes", function() {
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "comissoes-permanentes.html", { role: "page", transition: 'slide'   } );
+
+    });
+
+    $( "#comissoes-page"  ).on( "click", ".menu-comissoes-cpi", function() {
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "comissoes-cpi.html", { role: "page", transition: 'slide'   } );
+
+    });
+
+    $( "#comissoes-page"  ).on( "click", ".menu-comissoes-especiais", function() {
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "comissoes-especiais.html", { role: "page", transition: 'slide'   } );
+
+    });
+
+    $( "#comissoes-page"  ).on( "click", ".menu-comissoes-representacao", function() {
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "comissoes-representacao.html", { role: "page", transition: 'slide'   } );
+
+    });
 }
