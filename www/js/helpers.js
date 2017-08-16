@@ -219,7 +219,7 @@ function bootHome() {
     });
 
 
-    $( "#inicio-page"  ).on( "click", ".menu-fale", function() {
+    $( "#inicio-page"  ).on( "click", ".menu-aloalerj", function() {
 
 
         $( ":mobile-pagecontainer" ).pagecontainer( "change", "faleconosco.html", { role: "page", transition: 'slide'   } );
@@ -253,6 +253,42 @@ function bootHome() {
     $( "#inicio-page"  ).on( "click", ".menu-carteirada", function() {
 
         $( ":mobile-pagecontainer" ).pagecontainer( "change", "carteiradadobem.html", { role: "page", transition: 'slide'   } );
+
+    });
+
+    $( "#inicio-page"  ).on( "click", ".menu-comissoes", function() {
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "comissoes.html", { role: "page", transition: 'slide'   } );
+
+    });
+
+    $( "#inicio-page"  ).on( "click", ".menu-comissoes-oquesao", function() {
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "comissoes-oquesao.html", { role: "page", transition: 'slide'   } );
+
+    });
+
+    $( "#inicio-page"  ).on( "click", ".menu-comissoes-permanentes", function() {
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "comissoes-oquesao.html", { role: "page", transition: 'slide'   } );
+
+    });
+
+    $( "#inicio-page"  ).on( "click", ".menu-comissoes-cpi", function() {
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "comissoes-oquesao.html", { role: "page", transition: 'slide'   } );
+
+    });
+
+    $( "#inicio-page"  ).on( "click", ".menu-comissoes-especiais", function() {
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "comissoes-oquesao.html", { role: "page", transition: 'slide'   } );
+
+    });
+
+    $( "#inicio-page"  ).on( "click", ".menu-comissoes-representacao", function() {
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "comissoes-oquesao.html", { role: "page", transition: 'slide'   } );
 
     });
 
