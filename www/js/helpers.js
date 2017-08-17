@@ -184,10 +184,33 @@ function bootHome() {
 
     $( "#inicio-page"  ).on( "click", ".menu-deputado", function() {
 
-
         app.ajax.scrollTopDeputado = 0;
 
         $( ":mobile-pagecontainer" ).pagecontainer( "change", "deputados.html", { role: "page", transition: 'slide'  } );
+
+    });
+
+    $( "#inicio-page"  ).on( "click", ".menu-mesadiretora", function() {
+
+        app.ajax.scrollTopDeputado = 0;
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "mesadiretora.html", { role: "page", transition: 'slide'  } );
+
+    });
+
+    $( "#inicio-page"  ).on( "click", ".menu-linhadireta", function() {
+
+        app.ajax.scrollTopDeputado = 0;
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "linhadireta.html", { role: "page", transition: 'slide'  } );
+
+    });
+
+    $( "#inicio-page"  ).on( "click", ".menu-partidos", function() {
+
+        app.ajax.scrollTopDeputado = 0;
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "partidos.html", { role: "page", transition: 'slide'  } );
 
     });
 
@@ -237,10 +260,19 @@ function bootHome() {
 
     $( "#inicio-page"  ).on( "click", ".menu-transparencia", function() {
 
-        app.ajax.mesAnoAgenda = '';
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "transparencia.html", { role: "page" , transition: 'slide'  } );
 
+    });
+
+    $( "#inicio-page"  ).on( "click", ".menu-licitacoes", function() {
 
         $( ":mobile-pagecontainer" ).pagecontainer( "change", "transparencia.html", { role: "page" , transition: 'slide'  } );
+
+    });
+
+    $( "#inicio-page"  ).on( "click", ".menu-leiseprojetos", function() {
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "leiseprojetos.html", { role: "page" , transition: 'slide'  } );
 
     });
 

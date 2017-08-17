@@ -5407,3 +5407,10 @@ a.menu-aloalerj.botao-azul.ui-link img {
     color:#efefef;
 }
 
+.portal_alerj {
+    margin-top: -40px !important;
+}
+
+.portal_alerj_sem_menu {
+    margin-top: -80px !important;
+}
