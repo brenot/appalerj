@@ -120,10 +120,10 @@ body.bg_saudacao {
         float: left;
         margin: 0px 0px 0px 0px;
         padding: 0px 0px 0px 0px;
-        
+
     }
 
-  
+
     .geral .barra_superior {
         width: 100%;
         height: 21px;
@@ -173,7 +173,7 @@ body.bg_saudacao {
         top: 0px;
         z-index: 2;
 
-        
+
     }
 
     .geral.fixed .principal {
@@ -279,7 +279,7 @@ body.bg_saudacao {
         margin: 0px 0px 0px 0px;
         padding: 0px 10px 0px 0px;
         background: #ffffff;
-       
+
 
     }
 
@@ -336,7 +336,7 @@ body.bg_saudacao {
 
 /*--------------------------- SUPERIOR para outras telas*/
 
-   
+
     .superior-telas{
        width: 100%;
         height: auto;
@@ -347,9 +347,9 @@ body.bg_saudacao {
         position: fixed;
         z-index: 1
 
-        
+
     }
-    
+
 
     .superior-telas .logotipo {
         padding: 15px 70px 15px 70px;
@@ -588,19 +588,23 @@ body.bg_saudacao {
 
     .menu ul li a,
     .menu ul li a:visited {
+        font-size: 1.5em;
+        padding: 18px 0px 17px 0px;
         width: auto;
         height: auto;
         display: block;
-        font-family: 'maven_probold';
-        font-size: 1.5em;
-        color: #2d3e5c;
-        text-align: center;
         text-decoration: none;
-        position: relative;
-        margin: 0px 0px 0px 0px;
-        padding: 18px 0px 17px 0px;
-        background: url(../imagens/menu-esquerda.png) left repeat-y, url(../imagens/menu-direita.png) right repeat-y;
+        font-family: 'maven_probold';
+        color: #ffffff;
+        text-align: left;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#172b53+0,001640+100 */
+        background: #172b53; /* Old browsers */
+        background: -moz-linear-gradient(top, #172b53 0%, #001640 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #172b53 0%,#001640 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #172b53 0%,#001640 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#172b53', endColorstr='#001640',GradientType=0 ); /* IE6-9 */
     }
+
 
     .menu ul li a:hover {
         color: #2d3e5c;
@@ -1101,7 +1105,7 @@ body.bg_saudacao {
         color: #ffffff;
         margin: 0px auto;
         padding: 1px 17px 3px 22px;
-        
+
     }
 
     .principal.regimento .container .controle-conteudo .conteudo h1 {
@@ -1153,8 +1157,8 @@ body.bg_saudacao {
         width: 100px;
         height: 15px;
         display: block;
-        
-        
+
+
     }
 
     .principal.regimento .container .controle-conteudo .capitulo span.descricao {
@@ -1488,7 +1492,7 @@ body.bg_saudacao {
     text-transform: uppercase;
     font-weight: normal;
     padding: 0px 0px 0px 0px;
-    }   
+    }
 
     .principal.deputado .container .controle-conteudo .conteudo.interna .cabecalho_deputado .texto {
     font-size: 16px;
@@ -1786,10 +1790,10 @@ body.bg_saudacao {
     position: absolute;
     bottom:0px;
     z-index: 2;
-    
+
     }
 
-    
+
 
     .inferior .conteudo {
     width: 100%;
@@ -1824,7 +1828,7 @@ body.bg_saudacao {
     background: url(../imagens/inferior_bg_paragrafo.jpg) center no-repeat;
     }
 
-   
+
 
 
 
@@ -1869,13 +1873,13 @@ body.bg_saudacao {
     overflow: hidden;
     float: left;
     margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px; 
+    padding: 0px 0px 0px 0px;
     z-index: 2;
 
 
     }
 
-    
+
 
     .footer-menu .conteudo {
     width: 100%;
@@ -2175,12 +2179,8 @@ body.bg_saudacao {
             font-family: 'maven_probold';
             font-size: 20px;
             color: #2d3e5c;
-            text-align: center;
-            text-decoration: none;
-            position: relative;
-            margin: 0px 0px 0px 0px;
             padding: 82px 0px 83px 0px;
-            background: url(../imagens/menu-esquerda.png) left repeat-y, url(../imagens/menu-direita.png) right repeat-y;
+
         }
         /*--------------------------- DEPUTADO - 1600px */
         .principal.deputado .container .controle-conteudo .conteudo .lista-deputado a.link-deputado .nome_partido {
@@ -2206,7 +2206,7 @@ body.bg_saudacao {
 
         .principal.deputado .container .controle-conteudo .conteudo .lista-deputado {
             padding: 75px 20px 140px 20px;
-        }        
+        }
 }
 
 
@@ -2231,12 +2231,8 @@ body.bg_saudacao {
             font-family: 'maven_probold';
             font-size: 20px;
             color: #2d3e5c;
-            text-align: center;
-            text-decoration: none;
-            position: relative;
-            margin: 0px 0px 0px 0px;
             padding: 64px 0 56px;
-            background: url(../imagens/menu-esquerda.png) left repeat-y, url(../imagens/menu-direita.png) right repeat-y;
+
         }
 
         .principal .container .controle-conteudo .conteudo {
@@ -2345,7 +2341,7 @@ body.bg_saudacao {
 
         .principal.regimento .container .controle-conteudo a.subsecao span.descricao {
 
-        font-size: 15px;       
+        font-size: 15px;
         padding: 0px 0px 21px 20px;
 
         }
@@ -2369,18 +2365,10 @@ body.bg_saudacao {
     }
 
     .menu ul li a, .menu ul li a:visited {
-        width: auto;
-        height: auto;
-        display: block;
-        font-family: 'maven_probold';
         font-size: 20px;
         color: #2d3e5c;
-        text-align: center;
-        text-decoration: none;
-        position: relative;
-        margin: 0px 0px 0px 0px;
         padding: 53px 0 54px;
-        background: url(../imagens/menu-esquerda.png) left repeat-y, url(../imagens/menu-direita.png) right repeat-y;
+
     }
 
     .principal .container .controle-conteudo .conteudo {
@@ -2488,7 +2476,7 @@ body.bg_saudacao {
     }
     .principal.regimento .container .controle-conteudo a.subsecao span.descricao {
 
-    font-size: 15px;       
+    font-size: 15px;
     padding: 0px 0px 21px 20px;
     }
 }
@@ -2511,18 +2499,9 @@ body.bg_saudacao {
     }
 
     .menu ul li a, .menu ul li a:visited {
-        width: auto;
-        height: auto;
-        display: block;
-        font-family: 'maven_probold';
         font-size: 20px;
         color: #2d3e5c;
-        text-align: center;
-        text-decoration: none;
-        position: relative;
-        margin: 0px 0px 0px 0px;
         padding: 40px 0px 41px 0px;
-        background: url(../imagens/menu-esquerda.png) left repeat-y, url(../imagens/menu-direita.png) right repeat-y;
     }
 
     .principal .container .controle-conteudo .conteudo {
@@ -2627,7 +2606,7 @@ body.bg_saudacao {
 
     .principal.regimento .container .controle-conteudo a.subsecao span.descricao {
 
-    font-size: 15px;       
+    font-size: 15px;
     padding: 0px 0px 21px 20px;
 
     }
@@ -2645,7 +2624,7 @@ body.bg_saudacao {
     height: 208px;
     }
 
-    
+
 
      .img_share {
          position: absolute;
@@ -2693,24 +2672,16 @@ body.bg_saudacao {
     .superior .logotipo {
         padding: 36px 70px 30px 70px;
     }
-    
+
     .principal.agenda .container .conteudo ul.eventos li a {
     width: 500px;
     }
 
     .menu ul li a, .menu ul li a:visited {
-        width: auto;
-        height: auto;
-        display: block;
         font-family: 'maven_probold';
         font-size: 20px;
-        color: #2d3e5c;
-        text-align: center;
-        text-decoration: none;
-        position: relative;
         margin: 0px 0px 0px 0px;
         padding: 42px 0px 41px 0px;
-        background: url(../imagens/menu-esquerda.png) left repeat-y, url(../imagens/menu-direita.png) right repeat-y;
     }
 
     .label_resultado {
@@ -2931,24 +2902,15 @@ body.bg_saudacao {
     .superior .logotipo {
         padding: 32px 70px 30px 70px;
     }
-    
+
     .principal.agenda .container .conteudo ul.eventos li a {
     width: 450px;
     }
 
     .menu ul li a, .menu ul li a:visited {
-        width: auto;
-        height: auto;
-        display: block;
-        font-family: 'maven_probold';
         font-size: 20px;
-        color: #2d3e5c;
-        text-align: center;
-        text-decoration: none;
-        position: relative;
         margin: 0px 0px 0px 0px;
         padding: 37px 0px 36px 0px;
-        background: url(../imagens/menu-esquerda.png) left repeat-y, url(../imagens/menu-direita.png) right repeat-y;
     }
 
     .label_resultado {
@@ -3180,24 +3142,21 @@ body.bg_saudacao {
         width: 240px;
         height: 240px;
     }
-    
+
     .principal.agenda .container .conteudo ul.eventos li a {
     width:350px;
     }
 
     .menu ul li a, .menu ul li a:visited {
-        width: auto;
-        height: auto;
-        display: block;
-        font-family: 'maven_probold';
         font-size: 20px;
-        color: #2d3e5c;
-        text-align: center;
-        text-decoration: none;
-        position: relative;
         margin: 0px 0px 0px 0px;
         padding: 24px 0px 26px 0px;
-        background: url(../imagens/menu-esquerda.png) left repeat-y, url(../imagens/menu-direita.png) right repeat-y;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#172b53+0,001640+100 */
+        background: #172b53; /* Old browsers */
+        background: -moz-linear-gradient(top, #172b53 0%, #001640 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #172b53 0%,#001640 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #172b53 0%,#001640 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#172b53', endColorstr='#001640',GradientType=0 ); /* IE6-9 */
     }
 
     /*--------------------------- PRINCIPAL - 736px */
@@ -3416,27 +3375,18 @@ body.bg_saudacao {
     .superior .logotipo {
         padding: 22px 70px 15px 70px;
     }
-    
+
     .principal.agenda .container .conteudo ul.eventos li a {
     width: 250px;
     }
 
     .menu ul li a, .menu ul li a:visited {
-        width: auto;
-        height: auto;
-        display: block;
-        font-family: 'maven_probold';
         font-size: 20px;
-        color: #2d3e5c;
-        text-align: center;
-        text-decoration: none;
-        position: relative;
         margin: 0px 0px 0px 0px;
         padding: 15px 0px 14px 0px;
-        background: url(../imagens/menu-esquerda.png) left repeat-y, url(../imagens/menu-direita.png) right repeat-y;
     }
 
-    
+
 
 
     /*--------------------------- PRINCIPAL - 667px */
@@ -3676,7 +3626,7 @@ body.bg_saudacao {
 
     .principal.regimento .container .controle-conteudo a.subsecao span.descricao {
 
-        font-size: 15px;       
+        font-size: 15px;
         padding: 0px 0px 21px 20px;
 
     }
@@ -3716,18 +3666,9 @@ body.bg_saudacao {
     }
 
     .menu ul li a, .menu ul li a:visited {
-        width: auto;
-        height: auto;
-        display: block;
-        font-family: 'maven_probold';
         font-size: 15px;
-        color: #2d3e5c;
-        text-align: center;
-        text-decoration: none;
-        position: relative;
         margin: 0px 0px 0px 0px;
         padding: 17px 0px 20px 0px;
-        background: url(../imagens/menu-esquerda.png) left repeat-y, url(../imagens/menu-direita.png) right repeat-y;
     }
 
 
@@ -3959,7 +3900,7 @@ body.bg_saudacao {
 
     .principal.regimento .container .controle-conteudo a.subsecao span.descricao {
 
-        font-size: 15px;       
+        font-size: 15px;
         padding: 0px 0px 21px 20px;
 
     }
@@ -4005,7 +3946,7 @@ body.bg_saudacao {
 
     .principal.regimento .container .controle-conteudo a.subsecao span.descricao {
 
-        font-size: 15px;       
+        font-size: 15px;
         padding: 0px 0px 21px 20px;
 
     }
@@ -4013,7 +3954,7 @@ body.bg_saudacao {
     .tamanho{
         height: 1000px;
     }
-    
+
 
 }
 
@@ -4031,18 +3972,9 @@ body.bg_saudacao {
     }
 
     .menu ul li a, .menu ul li a:visited {
-        width: auto;
-        height: auto;
-        display: block;
-        font-family: 'maven_probold';
         font-size: 20px;
-        color: #2d3e5c;
-        text-align: center;
-        text-decoration: none;
-        position: relative;
         margin: 0px 0px 0px 0px;
         padding: 14px 0px 17px 0px;
-        background: url(../imagens/menu-esquerda.png) left repeat-y, url(../imagens/menu-direita.png) right repeat-y;
     }
 
 
@@ -4248,7 +4180,7 @@ body.bg_saudacao {
         background: url(../imagens/botao-compartilhar.png) no-repeat;
         margin-left: -49px;
         border-radius:4px;
-    
+
     }
 
     .principal.regimento .container .controle-conteudo a.secao span.area {
@@ -4283,7 +4215,7 @@ body.bg_saudacao {
 
     .principal.regimento .container .controle-conteudo a.subsecao span.descricao {
 
-        font-size: 15px;       
+        font-size: 15px;
         padding: 0px 0px 21px 20px;
 
     }
@@ -4305,25 +4237,16 @@ body.bg_saudacao {
     .superior .logotipo {
         padding: 18px 70px 15px 70px;
     }
-    
+
     .principal.agenda .container .conteudo ul.eventos li a {
     width: 200px;
     }
 
 
     .menu ul li a, .menu ul li a:visited {
-        width: auto;
-        height: auto;
-        display: block;
-        font-family: 'maven_probold';
         font-size: 20px;
-        color: #2d3e5c;
-        text-align: center;
-        text-decoration: none;
-        position: relative;
         margin: 0px 0px 0px 0px;
         padding: 18px 0px 17px 0px;
-        background: url(../imagens/menu-esquerda.png) left repeat-y, url(../imagens/menu-direita.png) right repeat-y;
     }
 
 
@@ -4562,7 +4485,7 @@ body.bg_saudacao {
     }
     .principal.regimento .container .controle-conteudo a.subsecao span.descricao {
 
-        font-size: 15px;       
+        font-size: 15px;
         padding: 0px 0px 21px 20px;
 
     }
@@ -4587,27 +4510,18 @@ body.bg_saudacao {
     .superior .logotipo {
         padding: 20px 70px 15px 70px !important;
     }
-    
+
     .principal.agenda .container .conteudo ul.eventos li a {
     width: 200px;
     }
 
     .menu ul li a, .menu ul li a:visited {
-        width: auto;
-        height: auto;
-        display: block;
-        font-family: 'maven_probold';
         font-size: 20px;
-        color: #2d3e5c;
-        text-align: center;
-        text-decoration: none;
-        position: relative;
         margin: 0px 0px 0px 0px;
         padding: 8px 0px 9px 0px !important;
-        background: url(../imagens/menu-esquerda.png) left repeat-y, url(../imagens/menu-direita.png) right repeat-y;
     }
 
-    
+
     /*--------------------------- PRINCIPAL - 568px */
     .principal .container .controle-conteudo {
         min-height: auto;
@@ -4850,7 +4764,7 @@ body.bg_saudacao {
 
     .principal.regimento .container .controle-conteudo a.subsecao span.descricao {
 
-        font-size: 14px;       
+        font-size: 14px;
         padding: 0px 0px 21px 20px;
     }
 
@@ -4907,18 +4821,10 @@ body.bg_saudacao {
     }
 
     .menu ul li a, .menu ul li a:visited {
-        width: auto;
-        height: auto;
-        display: block;
-        font-family: 'maven_probold';
         font-size: 16px;
-        color: #2d3e5c;
-        text-align: center;
-        text-decoration: none;
         position: relative;
         margin: 0px 0px 0px 0px;
         padding: 6px 0px 5px 0px !important;
-        background: url(../imagens/menu-esquerda.png) left repeat-y, url(../imagens/menu-direita.png) right repeat-y;
     }
 
     /*--------------------------- PRINCIPAL - 480px */
@@ -5172,7 +5078,7 @@ body.bg_saudacao {
 
     .principal.regimento .container .controle-conteudo a.subsecao span.descricao {
 
-        font-size: 14px;       
+        font-size: 14px;
         padding: 0px 0px 21px 20px;
 
     }
@@ -5262,12 +5168,8 @@ a.menu-aloalerj.botao-azul.ui-link {
 }
 
 a.menu-aloalerj.botao-azul.ui-link img {
-    max-height: 55px;
     margin: 0px 0 0px 0;
 }
-
-
-
 
 
 
@@ -5347,6 +5249,7 @@ a.menu-aloalerj.botao-azul.ui-link img {
     border-top: 1px solid #8fa143;
     border-bottom: 2px solid #8fa143;
 }
+/*
 
 .menu2 ul li span.fio_01 {
     width: 100%;
@@ -5365,6 +5268,7 @@ a.menu-aloalerj.botao-azul.ui-link img {
     z-index: 1;
     background: url(../imagens/fio-02.png) repeat-x;
 }
+*/
 
 .menu2 ul li a,
 .menu2 ul li a:visited {
@@ -5373,19 +5277,57 @@ a.menu-aloalerj.botao-azul.ui-link img {
     display: block;
     font-family: 'maven_probold';
     font-size: 1.5em;
-    color: #2d3e5c;
-    text-align: center;
-    text-decoration: none;
-    position: relative;
     margin: 0px 0px 0px 0px;
-    padding: 18px 0px 17px 0px;
-    background: url(../imagens/menu-esquerda.png) left repeat-y, url(../imagens/menu-direita.png) right repeat-y;
+    color: #ffffff;
+    text-align: left;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#172b53+0,001640+100 */
+    background: #172b53; /* Old browsers */
+    background: -moz-linear-gradient(top, #172b53 0%, #001640 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #172b53 0%,#001640 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #172b53 0%,#001640 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#172b53', endColorstr='#001640',GradientType=0 ); /* IE6-9 */
 }
 
 .menu2 ul li a:hover {
     color: #2d3e5c;
     text-decoration: none;
 }
+
+.menu2 .menu-icon {
+    float: left ;
+    background: rgba(0, 0, 0, 0.5);
+    width: 25%;
+}
+
+.menu2 .menu-icon img {
+    padding: 14px 0;
+}
+
+/*.menu2 .menu-texto{
+    padding: 20px;
+}*/
+
+.menu2 small {
+    /*display: block;*/
+    /*clear: both;*/
+    /* background: #f0f; */
+    /* clear: left; */
+}
+
+
+/*
+.menu-item {
+    max-height: 120px;
+    padding: 30px 0px 30px 0px;
+}
+*/
+
+.menu-image {
+    height: 40px;
+}
+
+
+
 .radio2 {
     background: #f0f;
     height: 400px;
@@ -5405,3 +5347,30 @@ a.menu-aloalerj.botao-azul.ui-link img {
     color:#efefef;
 }
 
+.portal_alerj {
+    margin-top: -40px !important;
+}
+
+.portal_alerj_sem_menu {
+    margin-top: -80px !important;
+}
+
+
+
+
+
+.menu-texto {
+    display: flex;
+    align-items: center;
+    height: 67px;
+}
+
+li.row.menu-item{
+  color: #ffffff;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#172b53+0,001640+100 */
+  background: #172b53; /* Old browsers */
+  background: -moz-linear-gradient(top, #172b53 0%, #001640 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #172b53 0%,#001640 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #172b53 0%,#001640 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#172b53', endColorstr='#001640',GradientType=0 ); /* IE6-9 */
+}
