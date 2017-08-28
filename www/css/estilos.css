@@ -1875,55 +1875,52 @@ body.bg_saudacao {
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     z-index: 2;
+     border-bottom: 2px solid #90a145 !important;
+ }
 
 
-    }
 
-
-
-    .footer-menu .conteudo {
+.footer-menu .conteudo {
     width: 100%;
     height: auto;
     overflow: hidden;
     float: left;
     margin: 0px 0px 0px 0px;
     padding: 17px 0px 20px 0px;
-    background: url(../imagens/inferior-esquerda.jpg) top left no-repeat, url(../imagens/inferior-direita.jpg) top right no-repeat;
-    background-color: #334062;
-    }
+    background: url(../imagens/bg.jpg) repeat;
+    border-bottom: 10px solid #182b53;
+}
 
-    .footer-menu .conteudo.inicio {
-    }
+.footer-menu .conteudo.inicio {
+}
 
-    .footer-menu .conteudo p {
+.footer-menu .conteudo p {
     font-size: 10px;
     line-height: 1.4rem;
     color: #767E95;
     text-align: center;
     margin: 0px 0px 0px 0px;
     padding: 0px 30px 0px 30px;
-    }
+}
 
-    .footer-menu .conteudo p.bold {
+.footer-menu .conteudo p.bold {
     width: auto !important;
     font-weight: 800;
     font-size: 1.2rem;
     margin: 0px 0px 10px 0px;
     padding: 0px 40px 0px 40px;
-    background: #FFFFFF;
-    background: url(../imagens/inferior_bg_paragrafo.jpg) center no-repeat;
-    }
+}
 
 
 
-    .img_share{
-        position: absolute;
-        width: 71px;
-        height: 21px;
-        background: url(../imagens/botao-compartilhar.png) no-repeat;
-        margin-left: -49px;
-        border-radius:4px;
-    }
+.img_share{
+    position: absolute;
+    width: 71px;
+    height: 21px;
+    background: url(../imagens/botao-compartilhar.png) no-repeat;
+    margin-left: -49px;
+    border-radius:4px;
+}
 
 
 
@@ -3373,7 +3370,7 @@ body.bg_saudacao {
 
 
     .superior .logotipo {
-        padding: 22px 70px 15px 70px;
+        padding: 15px 70px 20px 70px;
     }
 
     .principal.agenda .container .conteudo ul.eventos li a {
@@ -4508,7 +4505,7 @@ body.bg_saudacao {
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (-webkit-min-device-pixel-ratio: 2) {
 
     .superior .logotipo {
-        padding: 20px 70px 15px 70px !important;
+        padding: 15px 70px 20px 70px !important;
     }
 
     .principal.agenda .container .conteudo ul.eventos li a {
@@ -5362,18 +5359,30 @@ a.menu-aloalerj.botao-azul.ui-link img {
     margin-top: -80px !important;
 }
 
+
 .menu-texto {
     display: flex;
     align-items: center;
     height: 67px;
 }
+*/
 
+/*
 li.row.menu-item{
   color: #ffffff;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#172b53+0,001640+100 */
-  background: #172b53; /* Old browsers */
-  background: -moz-linear-gradient(top, #172b53 0%, #001640 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #172b53 0%,#001640 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #172b53 0%,#001640 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#172b53', endColorstr='#001640',GradientType=0 ); /* IE6-9 */
+  !* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#172b53+0,001640+100 *!
+  background: #172b53; !* Old browsers *!
+  background: -moz-linear-gradient(top, #172b53 0%, #001640 100%); !* FF3.6-15 *!
+  background: -webkit-linear-gradient(top, #172b53 0%,#001640 100%); !* Chrome10-25,Safari5.1-6 *!
+  background: linear-gradient(to bottom, #172b53 0%,#001640 100%); !* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ *!
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#172b53', endColorstr='#001640',GradientType=0 ); !* IE6-9 *!
 }
+
+
+
+
+
+*/
+
+
+

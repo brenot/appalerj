@@ -1,0 +1,98 @@
+/*---------------------------  MENU 3  --------------------------- */
+*{
+    margin: 0 ;
+    padding: 0 ;
+}
+
+
+@media screen and (min-width: 0px) {
+    .menu3 ul {
+        display: flex;
+        display: -webkit-flex;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 766px) {
+    .menu3 ul {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        /* You can set flex-wrap and flex-direction individually */
+        -webkit-flex-direction: row;
+        flex-direction: row;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+        /* Or do it all in one line with flex flow */
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
+        /* tweak the where items line up on the row */
+        /* valid values are: flex-start, flex-end, space-between, space-around, stretch */
+        -webkit-align-content: flex-end;
+        align-content: flex-end;
+    }
+}
+
+
+.menu3 li {
+    list-style: none;
+
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#172b53+0,001640+100 */
+    background: #172b53; /* Old browsers */
+    background: -moz-linear-gradient(top, #172b53 0%, #001640 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #172b53 0%,#001640 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #172b53 0%,#001640 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#172b53', endColorstr='#001640',GradientType=0 ); /* IE6-9 */
+}
+
+.menu3 li > a {
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    height: 80px;
+    color: #ffffff;
+}
+
+.menu3 div.middle {
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu3 img {
+    display: flex;
+}
+
+.menu3 span.title {
+    font-size: 1.8em;
+}
+
+.menu3 span.subtitle {
+    font-size: 0.8em;
+}
+
+.menu3 div.menu-icon {
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.menu3 img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+/*--------------------------- ! FIM - MENU 3  --------------------------- */
