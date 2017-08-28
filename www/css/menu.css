@@ -37,19 +37,23 @@
     }
 }
 
+.menu3 {
+    border-top: 2px solid #8fa143;
+    font-family: 'dinlight';
+}
+
 
 .menu3 li {
     list-style: none;
-
     padding-left: 0px !important;
     padding-right: 0px !important;
-
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#172b53+0,001640+100 */
     background: #172b53; /* Old browsers */
     background: -moz-linear-gradient(top, #172b53 0%, #001640 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, #172b53 0%,#001640 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, #172b53 0%,#001640 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#172b53', endColorstr='#001640',GradientType=0 ); /* IE6-9 */
+    border-bottom: 2px solid #8fa143;
 }
 
 .menu3 li > a {
@@ -74,11 +78,12 @@
 }
 
 .menu3 span.title {
-    font-size: 1.8em;
+    font-size: 1.7em;
 }
 
 .menu3 span.subtitle {
-    font-size: 0.8em;
+    font-size: 1.1em;
+    letter-spacing: 0.6px;
 }
 
 .menu3 div.menu-icon {
@@ -95,4 +100,9 @@
     width: 100%;
     height: 100%;
 }
+
+.menu3 ul.row {
+    margin-bottom: 0;
+}
+
 /*--------------------------- ! FIM - MENU 3  --------------------------- */
