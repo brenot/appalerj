@@ -1,3 +1,7 @@
-.ui-content{
-    padding: 0px !important;
+.ui-content {
+    padding: 0 !important;
+}
+
+/* Bacalhau */
+div.fix-padding-app.ui-content {
 }

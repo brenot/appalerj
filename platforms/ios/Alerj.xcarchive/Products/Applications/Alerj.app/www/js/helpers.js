@@ -184,10 +184,33 @@ function bootHome() {
 
     $( "#inicio-page"  ).on( "click", ".menu-deputado", function() {
 
-
         app.ajax.scrollTopDeputado = 0;
 
         $( ":mobile-pagecontainer" ).pagecontainer( "change", "deputados.html", { role: "page", transition: 'slide'  } );
+
+    });
+
+    $( "#inicio-page"  ).on( "click", ".menu-mesadiretora", function() {
+
+        app.ajax.scrollTopDeputado = 0;
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "mesadiretora.html", { role: "page", transition: 'slide'  } );
+
+    });
+
+    $( "#inicio-page"  ).on( "click", ".menu-linhadireta", function() {
+
+        app.ajax.scrollTopDeputado = 0;
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "linhadireta.html", { role: "page", transition: 'slide'  } );
+
+    });
+
+    $( "#inicio-page"  ).on( "click", ".menu-partidos", function() {
+
+        app.ajax.scrollTopDeputado = 0;
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "partidos.html", { role: "page", transition: 'slide'  } );
 
     });
 
@@ -237,10 +260,19 @@ function bootHome() {
 
     $( "#inicio-page"  ).on( "click", ".menu-transparencia", function() {
 
-        app.ajax.mesAnoAgenda = '';
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "transparencia.html", { role: "page" , transition: 'slide'  } );
 
+    });
+
+    $( "#inicio-page"  ).on( "click", ".menu-licitacoes", function() {
 
         $( ":mobile-pagecontainer" ).pagecontainer( "change", "transparencia.html", { role: "page" , transition: 'slide'  } );
+
+    });
+
+    $( "#inicio-page"  ).on( "click", ".menu-leiseprojetos", function() {
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "leiseprojetos.html", { role: "page" , transition: 'slide'  } );
 
     });
 
@@ -303,25 +335,25 @@ function bootComissoes()
 
     $( "#comissoes-page"  ).on( "click", ".menu-comissoes-permanentes", function() {
 
-        $( ":mobile-pagecontainer" ).pagecontainer( "change", "comissoes-oquesao.html", { role: "page", transition: 'slide'   } );
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "comissoes-permanentes.html", { role: "page", transition: 'slide'   } );
 
     });
 
     $( "#comissoes-page"  ).on( "click", ".menu-comissoes-cpi", function() {
 
-        $( ":mobile-pagecontainer" ).pagecontainer( "change", "comissoes-oquesao.html", { role: "page", transition: 'slide'   } );
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "comissoes-cpi.html", { role: "page", transition: 'slide'   } );
 
     });
 
     $( "#comissoes-page"  ).on( "click", ".menu-comissoes-especiais", function() {
 
-        $( ":mobile-pagecontainer" ).pagecontainer( "change", "comissoes-oquesao.html", { role: "page", transition: 'slide'   } );
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "comissoes-especiais.html", { role: "page", transition: 'slide'   } );
 
     });
 
     $( "#comissoes-page"  ).on( "click", ".menu-comissoes-representacao", function() {
 
-        $( ":mobile-pagecontainer" ).pagecontainer( "change", "comissoes-oquesao.html", { role: "page", transition: 'slide'   } );
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "comissoes-representacao.html", { role: "page", transition: 'slide'   } );
 
     });
 }
