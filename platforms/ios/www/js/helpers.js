@@ -1,6 +1,16 @@
 var tvAlerjPlayer;
 var done = false;
 
+function loadData() {
+    jQuery.get(
+        app.apiPortal + '/tv',
+        {},
+        function(result) {
+            window.app.tv.video.id = result.video.id;
+        }
+    );
+}
+
 function validateEmail(email){
     var re = /\S+@\S+\.\S+/;
     return re.test(email);
@@ -106,16 +116,12 @@ function bootAloAlerj() {
 }
 
 function playTvAlerj() {
-    console.log('playTvAlerj');
-
     // 2. This code loads the IFrame Player API code asynchronously.
     var tag = document.createElement('script');
 
     tag.src = "https://www.youtube.com/iframe_api";
     var scriptTag = document.getElementsByTagName('script')[0];
     scriptTag.parentNode.insertBefore(tag, scriptTag);
-
-    console.log('configuring click');
 
     jQuery('.voltar > a').on('click', function () {
         console.log('voltar play tv');
@@ -126,7 +132,6 @@ function playTvAlerj() {
 
 function pauseTvAlerj() {
     if (typeof tvAlerjPlayer !== 'undefined') {
-        console.log('pause');
         tvAlerjPlayer.stopVideo();
     }
 }
@@ -138,7 +143,7 @@ function onYouTubeIframeAPIReady() {
     tvAlerjPlayer = new YT.Player('video-player', {
         height: '100%',
         width: '100%',
-        videoId: 'e5iGB-228QA',
+        videoId: app.tv.video.id,
         events: {
             'onReady': onPlayerReady,
             'onStateChange': onPlayerStateChange
@@ -161,8 +166,6 @@ function onPlayerStateChange(event) {
 }
 
 function bootHome() {
-    console.log('bootHome');
-
     $( "#inicio-page"  ).on( "click", ".menu-tvalerj", function() {
 
         $( ":mobile-pagecontainer" ).pagecontainer( "change", "tvalerj.html", { role: "page", transition: 'slide'  } );
@@ -181,10 +184,33 @@ function bootHome() {
 
     $( "#inicio-page"  ).on( "click", ".menu-deputado", function() {
 
-
         app.ajax.scrollTopDeputado = 0;
 
         $( ":mobile-pagecontainer" ).pagecontainer( "change", "deputados.html", { role: "page", transition: 'slide'  } );
+
+    });
+
+    $( "#inicio-page"  ).on( "click", ".menu-mesadiretora", function() {
+
+        app.ajax.scrollTopDeputado = 0;
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "mesadiretora.html", { role: "page", transition: 'slide'  } );
+
+    });
+
+    $( "#inicio-page"  ).on( "click", ".menu-linhadireta", function() {
+
+        app.ajax.scrollTopDeputado = 0;
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "linhadireta.html", { role: "page", transition: 'slide'  } );
+
+    });
+
+    $( "#inicio-page"  ).on( "click", ".menu-partidos", function() {
+
+        app.ajax.scrollTopDeputado = 0;
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "partidos.html", { role: "page", transition: 'slide'  } );
 
     });
 
@@ -216,13 +242,12 @@ function bootHome() {
     });
 
 
-    $( "#inicio-page"  ).on( "click", ".menu-fale", function() {
+    $( "#inicio-page"  ).on( "click", ".menu-aloalerj", function() {
 
 
         $( ":mobile-pagecontainer" ).pagecontainer( "change", "faleconosco.html", { role: "page", transition: 'slide'   } );
 
     });
-
 
     $( "#inicio-page"  ).on( "click", ".menu-agenda", function() {
 
@@ -235,16 +260,45 @@ function bootHome() {
 
     $( "#inicio-page"  ).on( "click", ".menu-transparencia", function() {
 
-        app.ajax.mesAnoAgenda = '';
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "transparencia.html", { role: "page" , transition: 'slide'  } );
 
+    });
+
+    $( "#inicio-page"  ).on( "click", ".menu-licitacoes", function() {
 
         $( ":mobile-pagecontainer" ).pagecontainer( "change", "transparencia.html", { role: "page" , transition: 'slide'  } );
+
+    });
+
+    $( "#inicio-page"  ).on( "click", ".menu-leiseprojetos", function() {
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "leiseprojetos.html", { role: "page" , transition: 'slide'  } );
 
     });
 
     $( "#inicio-page"  ).on( "click", ".menu-portal", function() {
 
         $( ":mobile-pagecontainer" ).pagecontainer( "change", "portal.html", { role: "page" , transition: 'slide'  } );
+
+    });
+
+    $( "#inicio-page"  ).on( "click", ".menu-carteirada", function() {
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "carteiradadobem.html", { role: "page", transition: 'slide'   } );
+
+    });
+
+    $( "#inicio-page"  ).on( "click", ".menu-comissoes", function() {
+
+        $(":mobile-pagecontainer").on("pagecontainerchange", function( event, ui ) {
+            bootComissoes();
+        } );
+
+        $(":mobile-pagecontainer").pagecontainer( "change", "comissoes.html", {
+            role: "page",
+
+            transition: 'slide',
+        });
 
     });
 
@@ -265,4 +319,41 @@ function bootHome() {
     });
 
     $(window).on('resize load',adjustIframes);
+}
+
+function bootComissoes()
+{
+    console.log('boot comissoes');
+
+    $( "#comissoes-page"  ).on( "click", ".menu-comissoes-oquesao", function() {
+
+        console.log('o que são!');
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "comissoes-oquesao.html", { role: "page", transition: 'slide'   } );
+
+    });
+
+    $( "#comissoes-page"  ).on( "click", ".menu-comissoes-permanentes", function() {
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "comissoes-permanentes.html", { role: "page", transition: 'slide'   } );
+
+    });
+
+    $( "#comissoes-page"  ).on( "click", ".menu-comissoes-cpi", function() {
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "comissoes-cpi.html", { role: "page", transition: 'slide'   } );
+
+    });
+
+    $( "#comissoes-page"  ).on( "click", ".menu-comissoes-especiais", function() {
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "comissoes-especiais.html", { role: "page", transition: 'slide'   } );
+
+    });
+
+    $( "#comissoes-page"  ).on( "click", ".menu-comissoes-representacao", function() {
+
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", "comissoes-representacao.html", { role: "page", transition: 'slide'   } );
+
+    });
 }

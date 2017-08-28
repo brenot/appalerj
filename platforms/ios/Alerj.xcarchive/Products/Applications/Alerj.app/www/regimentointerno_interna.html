@@ -1,0 +1,75 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<title>ALERJ - Assembléia Legislativa do Estado do Rio de Janeiro</title>
+
+</head>
+<body>
+
+<div data-role="page" id="regimentointernointerna-page">
+
+    <script type="text/javascript">
+
+        $( "#regimentointernointerna-page" ).on( "pagebeforeshow", function( event, data ) {
+            app.actions.regimeInternoInterna();
+        });
+
+        $( "#regimentointernointerna-page" ).on( "swiperight", function(){
+            $( ":mobile-pagecontainer" ).pagecontainer( "change", "regimentointerno.html", { role: "page", transition: 'slide', reverse: 'true'  } );
+        } );
+      
+    </script>
+
+    <div class="geral fixed">
+    	 <div class="barra"></div>
+        <div class="superior-telas">
+            <div class="container-fluid superior_interna">
+            	<div class="campo_busca">
+                	<input type="text" name="busca">
+                    <div class="icone fechar"></div>
+                </div>
+                <div class="controle-botoes">
+                    <div class="voltar padding-0 col-lg-2 col-md-2 col-sm-2 col-xs-2" >
+                        <a href="regimentointerno.html" data-transition="slide" data-direction="reverse" class="icone"></a>
+                    </div>
+                    <div class="titulo col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                        <h1>REGIMENTO INTERNO</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid detalhe_superior">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 esquerda"></div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 direita"></div>
+            </div>
+        </div>
+
+        <div class="principal regimento interna">  
+        	<div class="col-lg-12 col-md-12 col-sm-12 container">		
+                <div class="controle-conteudo">
+                    <div class="container-fluid conteudo">  
+                        <div class="titulo">
+                            <div class="area-subsessao"></div>
+                            <h1></h1>
+                        </div>                  
+                        <div class="conteudo-regimento">
+                            <h2></h2>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+
+            <div class="inferior-regimento">
+                <div class="logotipo"><img src="imagens/logotipo-inferior-regimento.png" alt="ALERJ - Assembléia Legislativa do Estado do Rio de Janeiro"></div>
+                <div class="fio"></div>
+            </div>    
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

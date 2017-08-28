@@ -1,0 +1,85 @@
+﻿<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
+
+        <title>ALERJ - Assembléia Legislativa do Estado do Rio de Janeiro</title>
+
+        <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+        <link rel="stylesheet" type="text/css" href="css/uistyle.css">
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <script src="js/helpers.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+        <div data-role="page" id="comissoes-page">
+            <div class="geral fixed">
+                <div class="barra"></div>
+                <div class="superior-telas">
+                    <div class="container-fluid superior_interna">
+                        <div class="campo_busca">
+                            <input type="text" name="busca">
+                            <div class="icone fechar"></div>
+                        </div>
+                        <div class="controle-botoes">
+                            <div class="voltar padding-0 col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                                <a href="inicio.html" data-transition="slide" data-direction="reverse"
+                                   class="icone"></a>
+                            </div>
+                            <div class="titulo col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                <h1>COMISSÕES</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid detalhe_superior">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 esquerda"></div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 direita"></div>
+                    </div>
+                </div>
+                <div data-role="content">
+                    <div class="principal inicio">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 menu2">
+                                <ul>
+                                    <li><span class="fio_01"></span><a class="menu-item menu-comissoes-oquesao">O QUE SÃO</a><span class="fio_02"></span></li>
+
+                                    <li><span class="fio_01"></span><a class="menu-item menu-comissoes-permanentes">COMISSÕES PERMANENTES</a><span class="fio_02"></span></li>
+
+                                    <li><span class="fio_01"></span><a class="menu-item menu-comissoes-cpi">CPI (COMISSÃO PARLAMENTAR DE INQUÉRITO)</a><span class="fio_02"></span></li>
+
+                                    <li><span class="fio_01"></span><a class="menu-item menu-comissoes-especiais">COMISSÕES ESPECIAIS</a><span class="fio_02"></span></li>
+
+                                    <li><span class="fio_01"></span><a class="menu-item menu-comissoes-representacao">COMISSÕES DE REPRESENTAÇÃO</a><span class="fio_02"></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="controle-conteudo">
+                </div>
+
+                <span class="bottom-esquerda"></span>
+
+                <span class="bottom-direita"></span>
+            </div>
+        </div>
+
+        <script>
+            bootComissoes();
+        </script>
+    </body>
+</html>

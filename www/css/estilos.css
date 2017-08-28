@@ -5168,7 +5168,14 @@ a.menu-aloalerj.botao-azul.ui-link img {
     margin: 0px 0 0px 0;
 }
 
+.menu-item {
+    max-height: 120px;
+    padding: 30px 0px 30px 0px;
+}
 
+.menu-image {
+    height: 40px;
+}
 
 .video-wrapper {
     float: none;
@@ -5353,17 +5360,6 @@ a.menu-aloalerj.botao-azul.ui-link img {
 }
 
 
-
-
-
-
-/*
-.menu2 {
-    padding: 0;
-}*/
-
-
-/*
 .menu-texto {
     display: flex;
     align-items: center;
