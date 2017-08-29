@@ -3659,7 +3659,7 @@ body.bg_saudacao {
 @media screen and (min-device-width: 360px) and (min-device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
 
     .superior .logotipo {
-        padding: 23px 70px 15px 70px;
+        padding: 10px 70px 20px 70px;
     }
 
 
