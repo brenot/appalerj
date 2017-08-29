@@ -5,49 +5,6 @@
 }
 
 
-@media screen and (min-width: 0px) {
-    .menu3 ul {
-        display: flex;
-        display: -webkit-flex;
-        -webkit-flex-direction: column;
-        flex-direction: column;
-    }
-}
-
-@media screen and (min-width: 766px) {
-    .menu3 ul {
-        display: -webkit-flex;
-        display: flex;
-        -webkit-align-items: center;
-        align-items: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        /* You can set flex-wrap and flex-direction individually */
-        -webkit-flex-direction: row;
-        flex-direction: row;
-        -webkit-flex-wrap: wrap;
-        flex-wrap: wrap;
-        /* Or do it all in one line with flex flow */
-        -webkit-flex-flow: row wrap;
-        flex-flow: row wrap;
-        /* tweak the where items line up on the row */
-        /* valid values are: flex-start, flex-end, space-between, space-around, stretch */
-        -webkit-align-content: flex-end;
-        align-content: flex-end;
-    }
-}
-
-
-
-@media screen and (min-width: 992px) {
-    .menu3 li > a {
-        min-height: 127px;
-    }
-    .superior .logotipo {
-        padding: 25px 70px 35px 70px;
-    }
-}
-
 .menu3 {
     border-top: 2px solid #8fa143;
     font-family: 'dinlight';
@@ -116,4 +73,68 @@
     margin-bottom: 0;
 }
 
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 0px) {
+    .menu3 ul {
+        display: flex;
+        display: -webkit-flex;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 766px) {
+    .menu3 ul {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        /* You can set flex-wrap and flex-direction individually */
+        -webkit-flex-direction: row;
+        flex-direction: row;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+        /* Or do it all in one line with flex flow */
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
+        /* tweak the where items line up on the row */
+        /* valid values are: flex-start, flex-end, space-between, space-around, stretch */
+        -webkit-align-content: flex-end;
+        align-content: flex-end;
+    }
+    .superior .logotipo {
+        padding: 10px 140px 25px 140px;
+    }
+    .menu3 li > a {
+        height: 82px;
+    }
+}
+
+
+
+@media screen and (min-width: 992px) {
+    .menu3 li > a {
+        min-height: 127px;
+    }
+    .superior .logotipo {
+        padding: 25px 70px 35px 70px;
+    }
+}
+
 /*--------------------------- ! FIM - MENU 3  --------------------------- */
+
+
+
+
+
