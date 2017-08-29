@@ -37,6 +37,10 @@
     height: 80px;
     color: #ffffff;
 }
+.menu3 a:hover ,.menu3 a:active,.menu3 a:focus , .menu3 a:visited{
+    color: #ffffff ;
+}
+
 
 .menu3 div.middle {
     display: flex;
