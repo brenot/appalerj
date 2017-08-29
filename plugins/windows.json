@@ -9,6 +9,9 @@
     "installed_plugins": {
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "AppAlerj"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "AppAlerj"
         }
     },
     "dependent_plugins": {}

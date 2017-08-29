@@ -29,6 +29,9 @@
     <preference name="DisallowOverscroll" value="true" />
     <preference name="UIWebViewBounce" value="false" />
     <preference name="KeyboardDisplayRequiresUserAction" value="false" />
+    <preference name="StatusBarOverlaysWebView" value="true" />
+    <preference name="StatusBarBackgroundColor" value="#182B53" />
+    <preference name="StatusBarStyle" value="lightcontent" />
     <access origin="*" />
     <platform name="android">
         <preference name="android-targetSdkVersion" value="22" />
@@ -84,6 +87,7 @@
     <engine name="ios" spec="^4.4.0" />
     <plugin name="cordova-plugin-inappbrowser" spec="~1.3.0" />
     <plugin name="cordova-plugin-splashscreen" spec="~3.0.0" />
+    <plugin name="cordova-plugin-statusbar" spec="^2.2.3" />
     <plugin name="cordova-plugin-whitelist" spec="1.1.0" />
     <plugin name="cordova-plugin-wkwebview-engine" spec="~1.0.0" />
     <plugin name="cordova-plugin-x-socialsharing" spec="~5.0.7" />

@@ -60,4 +60,8 @@
     <preference name="KeyboardDisplayRequiresUserAction" value="false" />
     <preference name="android-targetSdkVersion" value="22" />
     <preference name="android-minSdkVersion" value="22" />
+    <feature name="StatusBar">
+        <param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
+        <param name="onload" value="true" />
+    </feature>
 </widget>

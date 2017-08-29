@@ -31,6 +31,18 @@
                         {
                             "xml": "<feature name=\"SocialSharing\"><param name=\"ios-package\" value=\"SocialSharing\" /><param name=\"onload\" value=\"true\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"StatusBar\"><param name=\"ios-package\" value=\"CDVStatusBar\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<preference name=\"StatusBarOverlaysWebView\" value=\"true\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<preference name=\"StatusBarStyle\" value=\"lightcontent\" />",
+                            "count": 1
                         }
                     ]
                 }
@@ -51,6 +63,9 @@
             "PACKAGE_NAME": "gov.br.rj.alerj.app"
         },
         "cordova-plugin-x-socialsharing": {
+            "PACKAGE_NAME": "gov.br.rj.alerj.app"
+        },
+        "cordova-plugin-statusbar": {
             "PACKAGE_NAME": "gov.br.rj.alerj.app"
         }
     },
@@ -94,6 +109,14 @@
             "clobbers": [
                 "window.plugins.socialsharing"
             ]
+        },
+        {
+            "id": "cordova-plugin-statusbar.statusbar",
+            "file": "plugins/cordova-plugin-statusbar/www/statusbar.js",
+            "pluginId": "cordova-plugin-statusbar",
+            "clobbers": [
+                "window.StatusBar"
+            ]
         }
     ],
     "plugin_metadata": {
@@ -101,6 +124,7 @@
         "cordova-plugin-splashscreen": "3.0.0",
         "cordova-plugin-whitelist": "1.1.0",
         "cordova-plugin-wkwebview-engine": "1.0.0",
-        "cordova-plugin-x-socialsharing": "5.0.7"
+        "cordova-plugin-x-socialsharing": "5.0.7",
+        "cordova-plugin-statusbar": "2.2.3"
     }
 }

@@ -21,6 +21,9 @@
         },
         "cordova-plugin-x-socialsharing": {
             "PACKAGE_NAME": "gov.br.rj.alerj.app"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "gov.br.rj.alerj.app"
         }
     },
     "dependent_plugins": {}
