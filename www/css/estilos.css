@@ -1969,10 +1969,9 @@ body.bg_saudacao {
     background-position: top left ;
     background-repeat: no-repeat;
     background-size: contain;
-    position: absolute;
-    margin-left: 12px;
-
-    width: 100%;
+    /*position: absolute;*/
+    /*margin-left: 12px;*/
+/*    width: 100%;*/
     height: 150px;
 }
 
@@ -1991,24 +1990,24 @@ body.bg_saudacao {
 
 
 
-.Aligner {
+.aligner {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.Aligner-item {
+.aligner-item {
     /*max-width: 50%;*/
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.Aligner-item--top {
+.aligner-item--top {
     align-self: flex-start;
 }
 
-.Aligner-item--bottom {
+.aligner-item--bottom {
     align-self: flex-end;
 }
 
