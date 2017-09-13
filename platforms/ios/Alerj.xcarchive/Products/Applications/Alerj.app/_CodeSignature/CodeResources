@@ -86,7 +86,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		3tdASKAjgylCV3Tqu8zWFZif3eU=
+		DyTPYReq9pG5CZVV/uCC9f9oNeI=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		w7YkaODj+StJYv8Ioxr+aDqMjPg=
+		Zgq32ykrl8UgJmGzrDwTg832Qh4=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -158,7 +158,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		BCNjjWitp2ylvwsm7Xwhx5Py7K0=
+		1iS1WeN1y1/5bRGBRNRA8ggRDJk=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -242,7 +242,7 @@
 		</data>
 		<key>www/css/estilos.css</key>
 		<data>
-		gwfDodfj93f9eMkwNOjxwGznK30=
+		SeALTAKESMdhSB/mBtD261w3LbA=
 		</data>
 		<key>www/css/images/ajax-loader.gif</key>
 		<data>
@@ -270,7 +270,7 @@
 		</data>
 		<key>www/css/menu.css</key>
 		<data>
-		TWuLr+HC2jqmvfJh0Wmevng86Yo=
+		65oZ55M/XHNI+ZK42Q9BgQ/yQB8=
 		</data>
 		<key>www/css/uistyle.css</key>
 		<data>
@@ -802,7 +802,7 @@
 		</data>
 		<key>www/inicio.html</key>
 		<data>
-		gGehbsEVYJUp52tvV+q6svYpt5w=
+		WneSjRaPG/7FNq/8qtqgjlVvL8Y=
 		</data>
 		<key>www/js/app.actions.js</key>
 		<data>
@@ -1746,7 +1746,7 @@
 		</data>
 		<key>www/leiseprojetos.html</key>
 		<data>
-		w1wQUbwVYz8DyYA4mtln56v2lK8=
+		JSB4dcW4hwBexbcGcIKkwt7QXDM=
 		</data>
 		<key>www/linhadireta.html</key>
 		<data>
@@ -1770,7 +1770,7 @@
 		</data>
 		<key>www/partidos.html</key>
 		<data>
-		XHB8ZjrA5vbXU+AXsETJfS3BIjo=
+		3jkUJG7Lx4I94v8DH8zGrEgOuAU=
 		</data>
 		<key>www/plugins/cordova-plugin-inappbrowser/www/inappbrowser.js</key>
 		<data>
@@ -1802,7 +1802,7 @@
 		</data>
 		<key>www/radioalerj.html</key>
 		<data>
-		lGjOyTMb77p5Mt0pW/q1ihe4Vkk=
+		qG9ZvGamy1Kf4hsuJzCQAotnuK4=
 		</data>
 		<key>www/regimentointerno.html</key>
 		<data>
@@ -2051,11 +2051,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3tdASKAjgylCV3Tqu8zWFZif3eU=
+			DyTPYReq9pG5CZVV/uCC9f9oNeI=
 			</data>
 			<key>hash2</key>
 			<data>
-			VxvekKqYuMUeq+A4g5dZTZt5OW3D+mzHg8KcZPQqljA=
+			U9Ba0Qg6swoAQI21drmONeX4+UgDCH+Buzyog4iITzw=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -2073,11 +2073,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			w7YkaODj+StJYv8Ioxr+aDqMjPg=
+			Zgq32ykrl8UgJmGzrDwTg832Qh4=
 			</data>
 			<key>hash2</key>
 			<data>
-			PjY+xVjD0FsMFn68/MdkevAg7JOaFJaKqcRYjt2dScY=
+			wZcw6jRkkKjtPdwJhkHQuPpMjKL8ZFc8ykwxH2THG38=
 			</data>
 		</dict>
 		<key>LaunchImage-568h@2x.png</key>
@@ -2238,11 +2238,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BCNjjWitp2ylvwsm7Xwhx5Py7K0=
+			1iS1WeN1y1/5bRGBRNRA8ggRDJk=
 			</data>
 			<key>hash2</key>
 			<data>
-			zhXluFuMMXETVZyKm4S3QH0+K4qk+zgSkZVo9sBmv8Y=
+			iSV0MrxbNDkyEUCX17LGSFksRFo3xPwN8t+o6kKQPZQ=
 			</data>
 		</dict>
 		<key>archived-expanded-entitlements.xcent</key>
@@ -2458,11 +2458,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gwfDodfj93f9eMkwNOjxwGznK30=
+			SeALTAKESMdhSB/mBtD261w3LbA=
 			</data>
 			<key>hash2</key>
 			<data>
-			LL0hP5UG8fnwTlJSVPM2jFgNjjJJntKPUrJVa1fxPto=
+			acYLgQwitOIzrzC4A/fhRI6UNcWgs0ByjHDX8nZ/iso=
 			</data>
 		</dict>
 		<key>www/css/images/ajax-loader.gif</key>
@@ -2535,11 +2535,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TWuLr+HC2jqmvfJh0Wmevng86Yo=
+			65oZ55M/XHNI+ZK42Q9BgQ/yQB8=
 			</data>
 			<key>hash2</key>
 			<data>
-			D5jT6Hxp5r3J9l9KIlzwtAf755evT5DUfK4pgp3qWBw=
+			mWAMCMm/oOE+LtUce9Fdlv2U9XNtj0XIPXsQSmv6+ws=
 			</data>
 		</dict>
 		<key>www/css/uistyle.css</key>
@@ -3998,11 +3998,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gGehbsEVYJUp52tvV+q6svYpt5w=
+			WneSjRaPG/7FNq/8qtqgjlVvL8Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			aiJ7fxgTNNQthoYFpNYTaZUqIZqtFjm6gr/RuSI+AfM=
+			Vnsu0MeuW0H5Bs62m2MFLZkS8HJKDlpeG2GcC86Mh1M=
 			</data>
 		</dict>
 		<key>www/js/app.actions.js</key>
@@ -6594,11 +6594,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			w1wQUbwVYz8DyYA4mtln56v2lK8=
+			JSB4dcW4hwBexbcGcIKkwt7QXDM=
 			</data>
 			<key>hash2</key>
 			<data>
-			ee2SAhQYy4xKFpz8NBlmhHOqDGv7DoLzJmtjSS3MMH8=
+			PYsYaU+Yt5aJnbc1bCyvRyGsxSdAqI1Dr3g3pDY6HKc=
 			</data>
 		</dict>
 		<key>www/linhadireta.html</key>
@@ -6660,11 +6660,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XHB8ZjrA5vbXU+AXsETJfS3BIjo=
+			3jkUJG7Lx4I94v8DH8zGrEgOuAU=
 			</data>
 			<key>hash2</key>
 			<data>
-			qxY4Ey9D+dxKad8Y4C8JccEV/Tcon3rpAJMM2jY7iKE=
+			fdDJSa19NLLbFH64vICVkPNlG0xM8cuvNg7WwA50g2c=
 			</data>
 		</dict>
 		<key>www/plugins/cordova-plugin-inappbrowser/www/inappbrowser.js</key>
@@ -6748,11 +6748,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lGjOyTMb77p5Mt0pW/q1ihe4Vkk=
+			qG9ZvGamy1Kf4hsuJzCQAotnuK4=
 			</data>
 			<key>hash2</key>
 			<data>
-			n9NvnEIv3QAeVfNIL5m60WeuCFsgysAyibNPxyQXMNg=
+			guk5ToIlRvtsZRx0E1EvJkRMXKxPvA+S8BzQaZTxTkc=
 			</data>
 		</dict>
 		<key>www/regimentointerno.html</key>
