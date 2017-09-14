@@ -5376,3 +5376,116 @@ a.menu-aloalerj.botao-azul.ui-link img {
     margin-top: -80px !important;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flexcontainer {
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-direction: column;
+    flex-direction: column;
+
+    -webkit-align-items: center;
+    align-items: center;
+
+    -webkit-justify-content: center;
+    justify-content: center;
+
+    color: #FFF;
+    background: #021f4d;
+    border-radius: 13px;
+    margin: 0 10px;
+    min-height: 360px;
+}
+.playbutton-container {
+    background: #021f4d;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    border: #1d3c64 solid 6px;
+
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-direction: column;
+    flex-direction: column;
+
+    -webkit-align-items: center;
+    align-items: center;
+
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+.playbutton {
+    height: 140px;
+    width: 140px;
+    background-color: #292929;
+    border-radius: 50%;
+
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-direction: column;
+    flex-direction: column;
+
+    -webkit-align-items: center;
+    align-items: center;
+
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+.buffering {
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    border-right: 2px solid #247db9;
+    border-bottom: 2px solid #247db9;
+    border-left: 2px solid #474747;
+    border-top: 2px solid #474747;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+.playtriangle {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 30px solid #ffffff;
+    border-bottom: 20px solid transparent;
+}
+
+
+
+.player-header {
+    background-image: url(../imagens/radio-microfone.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 150px;
+    width:100%;
+}
+
+.player-footer {
+    background-image: url(../imagens/radio-rodape.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 150px;
+    width:100%;
+}
