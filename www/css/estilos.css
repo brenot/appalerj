@@ -5403,8 +5403,7 @@ a.menu-aloalerj.botao-azul.ui-link img {
     justify-content: center;
 
     color: #FFF;
-    /*background: #021f4d;*/
-    background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAKUlEQVQYV2Nkkvf9zwAFUjJiDIwwARDn2ZNXEAEYB6SQUcY6+T9IBgYAym8PBWmsY+kAAAAASUVORK5CYII=) repeat;
+    background: url(../imagens/fundo-radioplayer.png);
     border-radius: 13px;
     margin: 0 10px;
     min-height: 360px;
@@ -5478,15 +5477,16 @@ a.menu-aloalerj.botao-azul.ui-link img {
     background-position: top left;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 150px;
+    height: 100px;
     width:100%;
 }
 
 .player-footer {
-    background-image: url(../imagens/radio-rodape.png);
+    background-image: url(../imagens/logo-radio-playerfooter.svg);
     background-position: top left;
     background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 150px;
-    width:100%;
+    background-size: contain;
+    min-height: 100px;
+    width:60%;
+    margin: 30px 0 30px 0 ;
 }
