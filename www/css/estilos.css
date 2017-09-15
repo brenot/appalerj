@@ -5403,7 +5403,8 @@ a.menu-aloalerj.botao-azul.ui-link img {
     justify-content: center;
 
     color: #FFF;
-    background: #021f4d;
+    /*background: #021f4d;*/
+    background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAKUlEQVQYV2Nkkvf9zwAFUjJiDIwwARDn2ZNXEAEYB6SQUcY6+T9IBgYAym8PBWmsY+kAAAAASUVORK5CYII=) repeat;
     border-radius: 13px;
     margin: 0 10px;
     min-height: 360px;
